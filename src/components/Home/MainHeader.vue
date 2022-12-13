@@ -10,11 +10,12 @@
       <div class="header__nav-2">
         <ul class="main-menu-3 menu-anim">
           <li>
-            <router-link to="/Home">Home</router-link>
+            <a><router-link to="/">Home</router-link></a>
+            
             <ul class="mega-menu-2">
               <li>
                 <ul>
-                  <li><a href="./MainHeader.vue">Digital Maketing</a></li>
+                  <li><a href="">Digital Maketing</a></li>
                   <li><a href="index-dark.html">Digital Maketing dark</a></li>
                   <li><a href="index-2.html">Design Studio </a></li>
                   <li><a href="index-2-dark.html">Design Studio dark</a></li>
@@ -38,7 +39,6 @@
             </ul>
           </li>
           <li>
-            <!-- <a href="/AboutPage">about</a> -->
             <router-link to="/About">About</router-link>
           </li>
           <li class="has-megamenu"><router-link to="/Pages">Pages</router-link>
@@ -151,7 +151,7 @@
                   <li><a href="service-details-dark.html">service details dark</a></li>
                 </ul>
               </li>
-              <li><a href="service-2.html">service V.2</a></li>
+              <li><a href="">service V.2</a></li>
               <li><a href="service-3.html">service V.3</a></li>
               <li><a href="service-4.html">service V.4</a></li>
               <li><a href="service-5.html">service V.5</a></li>

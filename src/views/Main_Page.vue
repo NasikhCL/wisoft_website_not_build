@@ -36,9 +36,9 @@
 
 
 <script>
-import MainHeader from "../components/MainHeader.vue"
-import HeroPage from "../components/HeroPage.vue"
-import FooterPage from "../components/FooterPage.vue"
+import MainHeader from "../components/Home/MainHeader.vue"
+import HeroPage from "../components/Home/HeroPage.vue"
+import FooterPage from "../components/Home/FooterPage.vue"
 
 export default {
   components: {
