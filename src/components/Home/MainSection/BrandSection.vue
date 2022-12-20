@@ -8,22 +8,22 @@
               </h2>
               <div class="brand__list-3">
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/1.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/1.png" alt="Brand Logo">
                 </div>
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/2.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/2.png" alt="Brand Logo">
                 </div>
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/3.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/3.png" alt="Brand Logo">
                 </div>
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/4.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/4.png" alt="Brand Logo">
                 </div>
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/5.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/5.png" alt="Brand Logo">
                 </div>
                 <div class="brand__item-2 fade_bottom">
-                  <img src="assets/imgs/brand/6.png" alt="Brand Logo">
+                  <img src="@/assets/imgs/brand/6.png" alt="Brand Logo">
                 </div>
               </div>
             </div>

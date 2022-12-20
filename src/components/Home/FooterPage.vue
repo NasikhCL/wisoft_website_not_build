@@ -1,57 +1,39 @@
 <template>
     <div>
-        <footer class="footer__area-2 pt-130">
-        <div class="container">
-          <div class="footer__top-2 text-anim">
-            <div class="row">
-              <div class="col-xxl-12">
-                <h2 class="sec-title-3 title-anim">Get started <br> now</h2>
-                <p class="footer__sub-title">If you would like to work with us or
-                  just want to get in touch, we’d love
-                  to hear from you!</p>
-              </div>
+      <footer class="footer__area-3">
+        <div class="footer__top-3">
+          <div class="footer__top-wrapper-3">
+            <div class="footer__logo-3 pt-120">
+              <img src="@/assets/imgs/logo/site-logo-white-2.png" alt="Footer Logo">
+              <p>When do they work well, and when do they on us and finally, when do we actually need how can we avoid
+                them.</p>
+            </div>
+            <div class="footer__social-3">
+              <ul>
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="footer__contact-3">
+              <a class="end" href="contact.html">Let’s talk</a>
             </div>
           </div>
+        </div>
 
-          <div class="footer__middle-2">
+        <div class="footer__btm-3">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <div class="footer__location-2">
-                  <div class="location">
-                    <h3>London</h3>
-                    <p>Baltia Squar, Mark Street, <br>
-                      London</p>
-                  </div>
-                  <div class="location">
-                    <h3>New York</h3>
-                    <p>Nenuya Centre, Elia Street <br>
-                      New York, USA</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <div class="footer__subscribe-2">
-                  <form action="#">
-                    <input type="text" name="email" placeholder="Enter your email">
-                    <button type="submit" class="submit"><img src="assets/imgs/icon/arrow-black.png"
-                        alt="Arrow Icon"></button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="footer__btm-2">
-            <div class="row">
-              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
-                <div class="footer__copyright-2">
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="footer__copyright-3">
                   <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/" target="_blank">Wealcoder</a>
                   </p>
                 </div>
               </div>
-              <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
-                <div class="footer__nav">
-                  <ul class="footer-menu menu-anim">
+              <div class="col-xxl-8 col-xl-8 col-lg-8">
+                <div class="footer__nav-2">
+                  <ul class="footer-menu-2 menu-anim">
                     <li><a href="about.html">about us</a></li>
                     <li><a href="contact.html">contact</a></li>
                     <li><a href="career.html">Career</a></li>
@@ -63,5 +45,6 @@
           </div>
         </div>
       </footer>
+      <!-- Footer area end -->
     </div>
 </template>

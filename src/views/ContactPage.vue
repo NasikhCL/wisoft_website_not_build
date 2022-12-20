@@ -18,9 +18,9 @@
 
 
 <script>
-import HeaderSection from '../components/About/Components/HeaderSection.vue'
-import MainPage from '../components/Contact/Components/MainSection.vue'
-import FooterPage from '../components/Contact/Components/FooterSection.vue'
+import HeaderSection from '../components/About/HeaderSection.vue'
+import MainPage from '../components/Contact/MainSection.vue'
+import FooterPage from '../components/Contact/FooterSection.vue'
 
 export default {
   components: { HeaderSection, MainPage,FooterPage },

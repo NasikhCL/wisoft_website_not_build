@@ -20,8 +20,8 @@
                 <div class="blog__img-wrapper-3">
                   <a href="blog-details.html">
                     <div class="img-box">
-                      <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="Blog Thumbnail">
-                      <img class="image-box__item" src="assets/imgs/blog/3/1.jpg" alt="BLog Thumbnail">
+                      <img class="image-box__item" src="@/assets/imgs/blog/3/1.jpg" alt="Blog Thumbnail">
+                      <img class="image-box__item" src="@/assets/imgs/blog/3/1.jpg" alt="BLog Thumbnail">
                     </div>
                   </a>
                 </div>
@@ -41,8 +41,8 @@
                 <div class="blog__img-wrapper-3">
                   <a href="blog-details.html">
                     <div class="img-box">
-                      <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="Blog Thumbnail">
-                      <img class="image-box__item" src="assets/imgs/blog/3/2.jpg" alt="BLog Thumbnail">
+                      <img class="image-box__item" src="@/assets/imgs/blog/3/2.jpg" alt="Blog Thumbnail">
+                      <img class="image-box__item" src="@/assets/imgs/blog/3/2.jpg" alt="BLog Thumbnail">
                     </div>
                   </a>
                 </div>
