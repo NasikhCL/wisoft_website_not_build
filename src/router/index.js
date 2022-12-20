@@ -22,6 +22,16 @@ const routes = [
     name: "TeamPage",
     component: () => import("../views/TeamPage.vue"),
   },
+  {
+    path: "/Blog",
+    name: "BlogPage",
+    component: () => import("../views/BlogPage.vue"),
+  },
+  {
+    path: "/Services",
+    name: "ServicePage",
+    component: () => import("../views/ServicePage.vue"),
+  },
 ];
 
 const router = createRouter({

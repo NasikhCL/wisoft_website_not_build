@@ -49,12 +49,12 @@
           </div>
         </div>
         <div class="testimonial__images-3 animation_image_zoom">
-          <img src="assets/imgs/testimonial/3/1.jpg" alt="testimonial Image" class="testimonial3__img">
-          <img src="assets/imgs/testimonial/3/2.jpg" alt="testimonial Image" class="testimonial3__img-2">
-          <img src="assets/imgs/testimonial/3/3.jpg" alt="testimonial Image" class="testimonial3__img-3">
-          <img src="assets/imgs/testimonial/3/4.jpg" alt="testimonial Image" class="testimonial3__img-4">
-          <img src="assets/imgs/testimonial/3/5.jpg" alt="testimonial Image" class="testimonial3__img-5">
-          <img src="assets/imgs/testimonial/3/6.jpg" alt="testimonial Image" class="testimonial3__img-6">
+          <img src="@/assets/imgs/testimonial/3/1.jpg" alt="testimonial Image" class="testimonial3__img">
+          <img src="@/assets/imgs/testimonial/3/2.jpg" alt="testimonial Image" class="testimonial3__img-2">
+          <img src="@/assets/imgs/testimonial/3/3.jpg" alt="testimonial Image" class="testimonial3__img-3">
+          <img src="@/assets/imgs/testimonial/3/4.jpg" alt="testimonial Image" class="testimonial3__img-4">
+          <img src="@/assets/imgs/testimonial/3/5.jpg" alt="testimonial Image" class="testimonial3__img-5">
+          <img src="@/assets/imgs/testimonial/3/6.jpg" alt="testimonial Image" class="testimonial3__img-6">
         </div>
       </section>
     </div>

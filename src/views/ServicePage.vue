@@ -1,10 +1,9 @@
 <template>
-    <div>
+    <div class="dark">
       <div id="smooth-wrapper">
       <div id="smooth-content">
       <main>
         <header-section></header-section>
-        <!-- Contact area start -->
         <main-page></main-page>
       </main>
       <!-- Footer area start -->
@@ -17,11 +16,11 @@
 
 <script>
 import HeaderSection from '../components/About/HeaderSection.vue'
-import MainPage from '../components/Blog/MainSection.vue'
+import MainPage from '../components/Service/MainSection.vue'
 import FooterPage from '../components/Contact/FooterSection.vue'
 
 export default {
   components: { HeaderSection, MainPage,FooterPage },
-    name : 'BlogPage'
+    name : 'ServicePage'
 }
 </script>

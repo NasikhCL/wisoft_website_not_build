@@ -44,14 +44,14 @@
 
 </template>
 <script>
-  import MainHeader from '../components/About/Components/HeaderSection.vue'
-  import FooterPage from '../components/About/Components/FooterSection.vue'
-  import HeroPage from '../components/About/Components/MainSections/HeroSection.vue'
-  import StoryPage from '../components/About/Components/MainSections/StorySection.vue'
-  import CounterPage from '../components/About/Components/MainSections/CounterSection.vue'
-  import TeamPage from '../components/About/Components/MainSections/TeamSection.vue'
-  import BrandPage from '../components/About/Components/MainSections/BrandAreaSection.vue'
-  import TestimonialPage from '../components/About/Components/MainSections/TestimonialSection.vue'
+  import MainHeader from '../components/About/HeaderSection.vue'
+  import FooterPage from '../components/Contact/FooterSection.vue'
+  import HeroPage from '../components/About/MainSections/HeroSection.vue'
+  import StoryPage from '../components/About/MainSections/StorySection.vue'
+  import CounterPage from '../components/About/MainSections/CounterSection.vue'
+  import TeamPage from '../components/About/MainSections/TeamSection.vue'
+  import BrandPage from '../components/About/MainSections/BrandAreaSection.vue'
+  import TestimonialPage from '../components/About/MainSections/TestimonialSection.vue'
 
 export default {
   components: { MainHeader, HeroPage, StoryPage, FooterPage,CounterPage,TeamPage,BrandPage,TestimonialPage},
