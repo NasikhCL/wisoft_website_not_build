@@ -4524,7 +4524,11 @@ img {
   z-index: 9999;
   border: 1px solid white;
   background-color: white;
+<<<<<<< HEAD
   height: 80px;
+=======
+  height: 120px;
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc
   
 }
 .header__area-3.sticky-3 {

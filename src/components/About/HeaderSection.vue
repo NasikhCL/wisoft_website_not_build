@@ -38,7 +38,11 @@
                 </div>
                 <div class="offcanvas__links">
                 <ul>
+<<<<<<< HEAD
                     <!-- <router-link to="/Home">Home</router-link> -->
+=======
+                    <router-link to="/Home">Home</router-link>
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc
                     <li><a href="contact.html">contact</a></li>
                     <li><a href="career.html">Career</a></li>
                     <li><a href="blog.html">blog</a></li>

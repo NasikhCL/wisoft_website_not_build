@@ -13,6 +13,7 @@
             <a><router-link to="/">HOME</router-link></a>
           </li>
           <li>
+<<<<<<< HEAD
             <a> <router-link to="/About">ABOUT</router-link></a>
           </li>
           <li>
@@ -233,6 +234,27 @@
             </ul>
           </nav>
         </div>
+=======
+            <a><router-link to="/">HOME</router-link></a>
+          </li>
+          <li>
+            <router-link to="/About">ABOUT</router-link>
+          </li>
+          <li>
+            <router-link to="/Pages">PAGES</router-link>
+          </li>
+          <li>
+            <router-link to="/Services">SERVICES</router-link>
+          </li>
+          <li>
+            <router-link to="/Team">TEAM</router-link>
+          </li>
+          <li>
+            <router-link to="/Blog">BLOG</router-link>
+          </li>
+          <li><router-link to="/Contact">CONTACT</router-link></li>
+        </ul>
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc
       </div>
       <div class="offcanvas__right">
         <div class="offcanvas__search">

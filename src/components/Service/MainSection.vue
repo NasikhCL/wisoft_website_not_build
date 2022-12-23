@@ -21,7 +21,11 @@
 
             <div class="solution__right">
               <div class="solution__img-3">
+<<<<<<< HEAD
                 <img src="@/assets/imgs/thumb/solution-3.png"  alt="Solution Image">
+=======
+                <img src="@/assets/imgs/thumb/solution-3.png" alt="Solution Image">
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc
               </div>
             </div>
           </div>
@@ -185,7 +189,11 @@
 
                       <div class="service__item-6" id="service_4" data-secid="4">
                         <div class="image-tab">
+<<<<<<< HEAD
                           <img src="@/assets/imgs/service/4/service-1.png" alt="Service Image">
+=======
+                          <img src="@/assets/imgs/service/4.jpg" alt="Service Image">
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc
                         </div>
 
                         <div>
@@ -338,6 +346,7 @@
         </section>
         <!-- CTA area end -->
     </div>
+<<<<<<< HEAD
 </template>
 
 <script>
@@ -438,3 +447,6 @@
   }
 }
 </script>
+=======
+</template>
+>>>>>>> 55b764452ffa1c547ad57eae93ce3535f79218bc

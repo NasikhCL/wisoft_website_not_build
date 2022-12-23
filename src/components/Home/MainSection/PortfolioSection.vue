@@ -91,7 +91,7 @@
     methods: {
       
       Portfolio: function() {
-        let device_width = window.innerWidth;
+        
         if (device_width > 767) {
     let portfolioline = gsap.timeline({
       scrollTrigger: {
