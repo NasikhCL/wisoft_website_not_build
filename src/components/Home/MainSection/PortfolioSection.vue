@@ -1,91 +1,64 @@
 <template>
   <div>
            <!-- Portfolio area start -->
-        <section class="portfolio__area-3">
-          <div class="container pt-100 pb-150">
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="sec-title-wrapper">
-                  <h2 class="sec-sub-title title-anim">Featured <br>Work</h2>
+           <section class="portfolio__area pb-140">
+          <div class="container">
+            <div class="row top_row">
+
+              <h2 class="portfolio__text">work</h2>
+              <div class="portfolio__list-1">
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img class="mover" src="@/assets/imgs/portfolio/1/1.jpg"
+                      alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
                 </div>
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/3.jpg" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/4.jpg" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/1.jpg" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+                <div class="portfolio__item">
+                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image"></a>
+                  <div class="portfolio__info">
+                    <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
+                    <p>02 May 2021</p>
+                  </div>
+                </div>
+
               </div>
             </div>
 
-            <div class="row">
+            <div class="row row_bottom">
               <div class="col-xxl-12">
-                <div class="swiper portfolio__slider-3">
-                  <div class="swiper-wrapper">
-                    <swiper
-                    :modules="modules"
-                    :slides-per-view="1"
-                    :space-between="50"
-                    navigation
-                    :pagination="{ clickable: true }"
-                    :scrollbar="{ draggable: true }"
-                    @swiper="onSwiper"
-                    @slideChange="onSlideChange"
-                    >
-
-                    <!--  -->
-                    <swiper-slide>
-                    <div class="swiper-slide">
-                      <div class="portfolio__slide-3">
-                        <a href="service-details.html">
-                          <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
-                          <img src="@/assets/imgs/portfolio/3/2.jpg" alt="Portfolio Image">
-                        </a>
-                      </div>
-                    </div>
-                  </swiper-slide>
-                    <!--  -->
-
-                    <!--  -->
-                  <swiper-slide>
-                    <div class="swiper-slide">
-                      <div class="portfolio__slide-3">
-                        <a href="service-details.html">
-                          <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
-                          <img src="@/assets/imgs/portfolio/3/1.jpg" alt="Portfolio Image">
-                        </a>
-                      </div>
-                    </div>
-                  </swiper-slide>
-                    <!--  -->
-
-                    <!--  -->
-                  <swiper-slide>
-                    <div class="swiper-slide">
-                      <div class="portfolio__slide-3">
-                        <a href="service-details.html">
-                          <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
-                          <img src="@/assets/imgs/portfolio/3/3.jpg" alt="Portfolio Image">
-                        </a>
-                      </div>
-                    </div>
-                  </swiper-slide>
-                    <!--  -->
-
-                    <!--  -->
-                  <swiper-slide>
-                    <div class="swiper-slide">
-                      <div class="portfolio__slide-3">
-                        <a href="service-details.html">
-                          <h3 class="portfolio__title-3">Benjon <span>Website</span> 2012</h3>
-                          <img src="@/assets/imgs/portfolio/3/4.jpg" alt="Portfolio Image">
-                        </a>
-                      </div>
-                    </div>
-                  </swiper-slide>
-                    <!--  -->
-                  </swiper>
-                  </div>
-
-                  <div class="swiper-pagination"></div>
-
-                  <!-- <div class="swiper-btn"> -->
-                    <!-- <div class="pp-prev"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="pp-next"><i class="fa-solid fa-arrow-right"></i></div> -->
-                  <!-- </div> -->
+                <div class="portfolio__btn" id="btn_wrapper" data-speed="1" data-lag="0.2">
+                  <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>View <br>all
+                    projects <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -99,25 +72,88 @@
 </template>
 
 <script>
-  import { Swiper,SwiperSlide } from 'swiper/vue';
-  import { Navigation } from 'swiper';
-export default {
-  components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      const onSwiper = (swiper) => {
-        console.log(swiper);
-      };
-      const onSlideChange = () => {
-        console.log('slide change');
-      };
+  // jquery
+  import $ from "jquery";
+  import {ScrollTrigger} from 'gsap/ScrollTrigger';
+  gsap.registerPlugin(ScrollTrigger);
+  import { gsap } from 'gsap';
+
+   export default {
+    name: 'PortfolioSection',
+    data () {
       return {
-        onSwiper,
-        onSlideChange,
-        modules: [Navigation],
-      };
+        
+      }
     },
-}
+    mounted () {
+      this.Portfolio()
+    },
+    methods: {
+      
+      Portfolio: function() {
+        let device_width = window.innerWidth;
+        if (device_width > 767) {
+    let portfolioline = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".portfolio__area",
+        start: "top center-=200",
+        pin: ".portfolio__text",
+        end: "bottom bottom+=80",
+        markers: false,
+        pinSpacing: false,
+        scrub: 1,
+      }
+    })
+
+    portfolioline.to(".portfolio__text", {
+      scale: 3,
+      duration: 1
+    })
+    portfolioline.to(".portfolio__text", {
+      scale: 3,
+      duration: 1
+    })
+    portfolioline.to(".portfolio__text", {
+      scale: 1,
+      duration: 1
+    }, "+=2")
+  }
+
+
+  let portfolio_lists = gsap.utils.toArray(".portfolio__item")
+  portfolio_lists.forEach((portfolio, i) => {
+    gsap.set(portfolio, { opacity: 0.7 })
+    let t1 = gsap.timeline()
+
+    t1.set(portfolio, {
+      position: "relative",
+    })
+    t1.to(portfolio, {
+      scrollTrigger: {
+        trigger: portfolio,
+        scrub: 2,
+        duration: 1.5,
+        start: "top bottom+=100",
+        end: "bottom center",
+        markers: false
+      },
+      scale: 1,
+      opacity: 1,
+      rotateX: 0,
+    })
+  });
+
+  gsap.to(".bg_image img", {
+    xPercent: -18,
+    scrollTrigger: {
+      trigger: ".portfolio__area",
+      start: "top top",
+      end: "bottom center",
+      pin: ".bg_image",
+      scrub: 3
+    }
+  });
+      }
+    }
+  }
 </script>

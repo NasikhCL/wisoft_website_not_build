@@ -1,21 +1,21 @@
 <template>
   <div>
+    <pre-loader></pre-loader>
     <router-view></router-view>
   </div>
 </template>
 
 
 <script>
-
+import Preloader from '../src/components/Preloader.vue'
 export default {
   name: 'App',
-  created() {
-  let ckeditor = document.createElement('script');   
-  ckeditor.setAttribute('src',"//cdn.ckeditor.com/4.6.2/full/ckeditor.js");
-  document.head.appendChild(ckeditor);
-}
+  components : {
+    Preloader
+  }
 }
 
 </script>
+
 
 

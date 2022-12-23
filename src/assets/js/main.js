@@ -69,9 +69,16 @@
 65. Service 7 Animation
 ****************************************************/
 
+import jQuery from 'jquery'
+window.jQuery = window.$ = jQuery
+import { gsap } from 'gsap';
+import chroma from "chroma-js"
+import {ScrollSmoother,SplitText,ScrollToPlugin,ScrollTrigger} from 'gsap';
+
+
 (function ($) {
   "use strict";
-
+  console.log('mainjs is loaded ...');
   // Get Device width
   let device_width = window.innerWidth;
 
@@ -706,6 +713,7 @@
   /////////////////////////////////////////////////////
   // 22. Service 6
   if (device_width > 1200) {
+    console.log(device_width);
     gsap.to(".service__list-6", {
       scrollTrigger: {
         trigger: ".service__area-6",
@@ -767,6 +775,7 @@
 
     // Active Nav
     $(document).on('scroll', function () {
+      console.log('scroll -----');
       $('.service__item-6').each(function () {
         if ($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight()) > $(document).scrollTop()) {
           var sec_id = $(this).data('secid');

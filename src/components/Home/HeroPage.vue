@@ -33,8 +33,6 @@
       <!-- Workflow area start -->
       <work-page></work-page>
 
-      <!-- Price area start -->
-      <price-page></price-page>
       
       <!-- Blog area start -->
       <blog-page></blog-page>
@@ -53,7 +51,6 @@ import AboutPage from "../Home/MainSection/AboutSection.vue"
 import HeroPage from "../Home/MainSection/HeroSection.vue"
 import BrandPage from "../Home/MainSection/BrandSection.vue"
 import BlogPage from "../Home/MainSection/BlogSection.vue"
-import PricePage from "../Home/MainSection/PriceSection.vue"
 import WorkPage from "../Home/MainSection/WorkflowSection.vue"
 import ServicePage from "../Home/MainSection/ServiceSection.vue"
 import PortfolioPage from "../Home/MainSection/PortfolioSection.vue"
@@ -62,7 +59,7 @@ import TestimonialPage from "../Home/MainSection/TestimonialSection.vue"
 
 export default {
   components: {
-    HeroPage,AboutPage,BrandPage,BlogPage,PricePage,WorkPage,ServicePage,PortfolioPage,TestimonialPage
+    HeroPage,AboutPage,BrandPage,BlogPage,WorkPage,ServicePage,PortfolioPage,TestimonialPage
   },
 };
 </script>

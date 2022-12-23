@@ -38,7 +38,7 @@
                 </div>
                 <div class="offcanvas__links">
                 <ul>
-                    <router-link to="/Home">Home</router-link>
+                    <!-- <router-link to="/Home">Home</router-link> -->
                     <li><a href="contact.html">contact</a></li>
                     <li><a href="career.html">Career</a></li>
                     <li><a href="blog.html">blog</a></li>

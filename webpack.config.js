@@ -2,11 +2,11 @@ const { VueLoaderPlugin } = require("vue-loader");
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const autoprefixer = require("autoprefixer");
-const htmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+
+
 module.exports = {
   entry: {
-    main: "./src/main.js",
+    main: "./src/assets/js/main.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -58,12 +58,21 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new MiniCssExtractPlugin(),
-    new htmlWebpackPlugin({
-        template: path.resolve(__dirname, "public", "index.html"),
-        favicon: "./public/favicon.ico",
-      }),
-      new CleanWebpackPlugin(),
+   // new MiniCssExtractPlugin(),
+    // new htmlWebpackPlugin({
+    //     template: path.resolve(__dirname, "public", "index.html"),
+    //     favicon: "./public/favicon.icon",
+    //   }),
+    //  new CleanWebpackPlugin(),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      Popper: ['popper.js', 'default'],
+      // In case you imported plugins individually, you must also require them here:
+      Util: "exports-loader?Util!bootstrap/js/dist/util",
+      Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown",
+      // ...
+  })
   ],
   resolve: {
     alias: {

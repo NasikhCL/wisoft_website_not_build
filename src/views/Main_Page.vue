@@ -20,6 +20,7 @@ import MainHeader from "../components/Home/MainHeader.vue"
 import HeroPage from "../components/Home/HeroPage.vue"
 import FooterPage from "../components/Home/FooterPage.vue"
 
+
 export default {
   components: {
     MainHeader,
