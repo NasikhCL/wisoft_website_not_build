@@ -140,23 +140,23 @@ gsap.registerPlugin(ScrollTrigger);
 import { gsap } from 'gsap';
 
  export default {
-  name: 'MainSection',
+  name: 'WorkflowSection',
   data () {
     return {
       
     }
   },
   mounted () {
-    this.scrollSection()
+    this.scrollWorkflowSection()
   },
   methods: {
-    scrollSection: function() {
+    scrollWorkflowSection: function() { 
       // comon -> sidebar -> navigation timeline
       let device_width = window.innerWidth;
       if (device_width > 1200) {
 
-var workflow_section_3 = document.querySelector('.workflow__wrapper-3');
-if (workflow_section_3) {
+    var workflow_section_3 = document.querySelector('.workflow__wrapper-3');
+    if (workflow_section_3) {
 
   let duration = 1,
     sections = gsap.utils.toArray(".wf_panel"),

@@ -9,17 +9,22 @@
                   <h2 class="sec-sub-title">UAE #1</h2>
                   <h2 class="title-main">Digital Marketing Agency</h2>
                   <h2 class="title-main1">Create Bussiness.</h2>
-                  <h1 class="title-main2 ">better EveryDay.</h1>
+                  <h1 class="title-main2 ">better everyday.</h1>
                   <!-- <h3 class="sec-title title-right">eting</h3> -->
                 </div>
                 <div class="hero__text-3">
                   <p class="animation__word_come">Static and dynamic secure code review can prevent a day before your
                     product is even released. We
                     can integrate with your dev environment</p>
-                </div>
-                <div class="hero-btn">
+                    <!-- <div class="hero-btn">
                   <button type="button" class="btn btn-outline-dark">Let's Talk</button>
+                </div> -->
+                <div class="test-btn-it">
+               test this
+
                 </div>
+                </div>
+               
 
                 
                 <div class="scroll-down">
@@ -71,17 +76,26 @@
   font-family: serif;
   margin-left: 450px;
 }
-@media only screen and (max-width: 768px) {
- 
-}
 
-.hero-btn button{
+.test-btn-it{
+  margin-top: 20px;
+  border: 2px solid black;
+  text-align: center;
+ /* cursor: pointer !important; */
+ border-radius: 18px;
+ width: 120px;
+}
+.test-btn-it:hover{
+  background-color: black;
+  color: white;
+}
+.hero-btn .btn-outline-dark{
  margin-top: 20px;
  cursor: pointer !important;
  border-radius: 18px;
  width: 120px;
 }
-.hero-btn button:hover{
+.hero-btn .btn-outline-dark:hover{
   background-color: black;
   color: white;
 }
@@ -90,7 +104,33 @@
   padding-top: 0;
 
 }
-.wrapper{
+/* .wrapper{
   display: none;
+} */
+/* media query */
+@media only screen and (max-width: 768px) {
+  .sec-title-wrapper{
+    background-color: green;
+  }
+.title-main{
+  font-weight: 30;
+  font-size: 30px;
+}
+.title-main1{
+  font-weight: 800;
+  font-size:50px;
+  margin-left: 0px;
+}
+.title-main2{
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.hero-btn button{
+ margin-bottom:50px;
+
+}
 }
 </style>

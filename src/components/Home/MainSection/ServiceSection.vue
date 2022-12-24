@@ -285,17 +285,17 @@
   import { gsap } from 'gsap';
 
    export default {
-    name: 'MainSection',
+    name: 'ServiceSection',
     data () {
       return {
         
       }
     },
     mounted () {
-      this.scrollSection()
+      this.serviceSection()
     },
     methods: {
-      scrollSection: function() {
+      serviceSection: function() {
         // comon -> sidebar -> navigation timeline
         let device_width = window.innerWidth;
         if (device_width > 1200) {
