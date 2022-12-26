@@ -74,9 +74,10 @@
 <script>
   // jquery
   import $ from "jquery";
+  import { gsap } from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';
   gsap.registerPlugin(ScrollTrigger);
-  import { gsap } from 'gsap';
+  
 
    export default {
     name: 'PortfolioSection',
@@ -92,7 +93,7 @@
       PortfolioScroll: function() {
         let device_width = window.innerWidth;
         if (device_width > 767) {
-    let portfolioline = gsap.timeline({
+        let portfolioline = gsap.timeline({
       scrollTrigger: {
         trigger: ".portfolio__area",
         start: "top center-=200",

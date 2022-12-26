@@ -7062,7 +7062,7 @@ img {
   background-color: var(--white);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service__area-3 .sec-title {
+  .service__area-3  {
     padding-bottom: 0;
   }
 }
@@ -7158,7 +7158,7 @@ img {
 }
 .service__area-6 {
   padding-left: 100px;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .service__area-6 {

@@ -380,7 +380,7 @@
   padding: 15px;
 }
 
-.service__list-6 li{
+/* .service__list-6 li{
   padding:10px
-}
+} */
 </style>
