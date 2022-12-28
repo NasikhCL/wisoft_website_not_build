@@ -6683,7 +6683,7 @@ img {
   }
 }
 .about__area-3 {
-  background-image: url(../imgs/shape/7.png);
+  background-image: url('../imgs/shape/7.png');
   background-repeat: no-repeat;
   background-position: 100% 30%;
   background-color: var(--black-2);
@@ -7158,7 +7158,7 @@ img {
 }
 .service__area-6 {
   padding-left: 100px;
-  /* background-color: var(--black-2); */
+  background-color: var(--black-2);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .service__area-6 {
@@ -7291,9 +7291,9 @@ img {
   height: 100%;
   overflow: hidden;
 }
-.service__area-6 .mid-content .service__image img {
+.service__area-6  .service__image img {
   width: auto;
-  height: 100vh;
+  height: 80vh;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service__area-6 .mid-content {
@@ -7794,7 +7794,7 @@ img {
   font-size: 40px;
   line-height: 1.1;
   color: var(--white);
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .service__title-6 {

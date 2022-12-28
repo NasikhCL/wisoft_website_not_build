@@ -61,9 +61,9 @@
                   </div>
 
                   <div class="footer__subscribe">
-                    <form action="#">
-                      <input type="email" name="email" placeholder="Enter your email">
-                      <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    <form  @submit.prevent="getPost" method="post">
+                      <input type="email" id="email" placeholder="Enter your email"  v-model="formData.email">
+                      <button type="submit" class="subs-btn" @click="getData"><i class="fa-solid fa-paper-plane"></i></button>
                     </form>
                   </div>
                 </div>
@@ -74,3 +74,34 @@
       </footer>
     </div>
 </template>
+
+<script>
+import axios from 'axios'
+export default {
+name : 'FooterSection',
+data(){
+  return{
+    formData :{
+              email : '',
+              errorMSg :'',
+          }
+  }
+},
+methods : {
+    postData(){
+      axios.post('http://localhost:3000/users',
+      {
+        email : this.formData.email,
+      }
+      )
+      .then((response)=>{
+          console.log(response.data,"maill recived")
+      }).catch((error)=>{
+          console.log(error)
+          this.errorMSg = 'Error retriving data...'
+      })
+  }
+    }
+    }
+//  }
+</script>

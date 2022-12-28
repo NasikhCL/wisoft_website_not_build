@@ -30,13 +30,16 @@
       <!-- Testimonial area start -->
       <testimonial-page></testimonial-page>
 
+      <!-- Feedback -->
+
+      <feedback-section></feedback-section>
       <!-- Workflow area start -->
       <work-page></work-page>
 
       
       <!-- Blog area start -->
       <blog-page></blog-page>
-
+      
     </main>
 
     </div>
@@ -55,11 +58,12 @@ import WorkPage from "../Home/MainSection/WorkflowSection.vue"
 import ServicePage from "../Home/MainSection/ServiceSection.vue"
 import PortfolioPage from "../Home/MainSection/PortfolioSection.vue"
 import TestimonialPage from "../Home/MainSection/TestimonialSection.vue"
+import FeedbackSection from "./MainSection/FeedbackSection.vue"
 
 
 export default {
   components: {
-    HeroPage,AboutPage,BrandPage,BlogPage,WorkPage,ServicePage,PortfolioPage,TestimonialPage
+    HeroPage,AboutPage,BrandPage,BlogPage,WorkPage,ServicePage,PortfolioPage,TestimonialPage,FeedbackSection
   },
 };
 </script>

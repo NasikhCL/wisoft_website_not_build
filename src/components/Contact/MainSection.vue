@@ -103,27 +103,6 @@ methods : {
       })
   }
     }
-      // async getData()
-      // {
-      //     console.log('data entered',this.formData)
-      //     let result = await axios.post('http://localhost:3000/users',
-      //     {
-      //       name :this.formData.name,
-      //       phone :this.formData.phone,
-      //       email :this.formData.email,
-      //       messege :this.formData.message,
-      //       subject :this.formData.subject
-      //     }, 
-          
-      //     {headers: {
-      //     'Content-Type': 'text/plain;charset=utf-8'
-      //   }},)
-      //     console.log(result.data);
-      //     if(result.status==201)
-      //     {
-      //         alert("sign up done");
-      //     }
-      // }
     }
 //  }
 </script>

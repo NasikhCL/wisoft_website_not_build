@@ -8,7 +8,7 @@
                 <div class="sec-title-wrapper">
                   <h2 class="sec-sub-title">UAE #1</h2>
                   <h2 class="title-main"><span>Digi</span><span>tal</span> <span> Marke</span><span>ting</span> <span>Agency</span> </h2>
-                  <h2 class="title-main1"><span>Cr</span>eate<span></span><span>Buss</span><span>iness</span><span>.</span></h2>
+                  <h2 class="title-main1"><span>Cr</span>eate  <span>   Buss</span><span>iness</span><span>.</span></h2>
                   <h2 class="title-main2"><span>better</span> <span>everyday.</span></h2>
                   <!-- <h3 class="sec-title title-right">eting</h3> -->
                 </div>

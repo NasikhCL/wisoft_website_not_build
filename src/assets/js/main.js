@@ -1440,7 +1440,7 @@ import {ScrollSmoother,SplitText,ScrollToPlugin,ScrollTrigger} from 'gsap';
   imageMovingPortfolio(".portfolio-section", ".portfolio__hero img")
 
   // Image Moving with Cursor Function
-  function imageMovingPortfolio(wrapper, image_list) {
+  function Portfolio(wrapper, image_list) {
     let container = document.querySelector(wrapper)
     try {
       if (container) {

@@ -5,7 +5,7 @@
           <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div class="about__img-3">
-                <img src="@/assets/imgs/about/3/1.jpg" alt="About Thumbnail" data-speed="auto">
+                <img src="@/assets/imgs/about/1/1.jpg" alt="About Thumbnail" data-speed="auto">
               </div>
             </div>
 
@@ -33,3 +33,6 @@
       </section>
     </div>
 </template>
+
+
+   

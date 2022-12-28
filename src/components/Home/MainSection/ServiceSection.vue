@@ -69,9 +69,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
+                              Let's 
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                           
@@ -107,9 +107,8 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's 
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         
@@ -147,9 +146,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
+                              Let's
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -184,9 +183,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's
+                              
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -221,9 +220,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's
+                              
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -258,9 +257,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
-                              free
-                              <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
+                              Let's
+                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -379,6 +378,28 @@
 .service__area-6{
   padding: 15px;
 }
+.service__area-6 .mid-content .service__image {
+  height: 95vh;
+  padding-top: 75px;
+}
+.service__area-6 .service__title-6{
+  margin-top: 120px;
+}
+.service__area-6 {
+  background-color: white;
+  color: black;
+}
+.service__title-6{
+  color: black;
+}
+.service__item-6 li{
+  color: black;
+ 
+}
+.pin-spacer .active a {
+  color: black;
+}
+
 
 /* .service__list-6 li{
   padding:10px

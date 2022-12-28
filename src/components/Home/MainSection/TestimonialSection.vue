@@ -1,181 +1,145 @@
 <template>
-    <div>
-        <section class="testimonials">
-        <div class="testimonial-heading">
-          <h1>Client Says</h1>
-        </div>
-        <!-- testimonial -->
-        <div class="testimonial-box-container">
-          <!-- box -->
-          <div class="testimonial-box" v-for="post in postsLimited"  v-bind:key="post.id"  >
-            <!-- <div class="box-top" v-if="index <= 3"> -->
-              <div class="box-top">
-              <!-- profile -->
-              <div class="profile">
-                <div class="profile-img">
-                  <img src="@/assets/imgs/review/1.png" alt="user">
+  <div>
+     <!-- Testimonial area start -->
+     <section class="testimonial__area">
+          <div class="container g-0 line">
+            <span class="line-3"></span>
+            <div class="row">
+              <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
+                <div class="testimonial__wrapper">
+                  <div class="testimonial__item item-1">
+                    <div class="button modal-trigger">
+                      <div class="testimonial__img b-right">
+                        <img src="@/assets/imgs/testimonial/1/1.png" alt="Testimonial Image" style="translate: none; rotate: none; scale: none; transform: translate(-15px, 15px);">
+                      </div>
+
+                      <h2 class="testimonial__title">Jessica Sherlock</h2>
+                      <h3 class="testimonial__role">Manager, Oitaka</h3>
+                    </div>
+                  </div>
+                  <div class="sec-title-wrapper text-anim">
+                    <h4 class="sec-sub-title">Testimonials</h4>
+                    <h5 class="sec-title title-anim">Clients <br>feedback</h5>
+                    <p>Our happy customers give us impactfull and positive feedback on our services, customer supports
+                      &
+                      etc.</p>
+                  </div>
                 </div>
-                <!-- name & userName -->
-                <div class="name-user">
-                  <strong>{{ post.name }}</strong>
-                  <span>{{post.email}}</span>
+
+                <div class="testimonial__item item-2">
+                  <div class="button modal-trigger-2">
+                    <div class="testimonial__img b-left">
+                      <img src="@/assets/imgs/testimonial/1/3.png" alt="Testimonial Image">
+                    </div>
+
+                    <h2 class="testimonial__title">Jessica Sherlock</h2>
+                    <h3 class="testimonial__role">Manager, Oitaka</h3>
+                  </div>
                 </div>
               </div>
-              <!-- review -->
-              <div class="reviews">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                <div class="testimonial__item item-3 img-">
+                  <div class="button modal-trigger-3">
+                    <div class="testimonial__img b-left">
+                      <img src="@/assets/imgs/testimonial/1/2.png" alt="Testimonial Image">
+                    </div>
+
+                    <h2 class="testimonial__title">adam Smith</h2>
+                    <h3 class="testimonial__role">Manager, Oitaka</h3>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <!-- commentssss -->
-            <div class="client-comment">
-              <p>{{ post.body }}</p>
-            </div>
-
           </div>
-        </div>
-        <h6 class="all-reviews">see all reviews</h6>
-      </section>
-    </div>
+        </section>
+        <!-- Testimonial area end -->
+  </div>
 </template>
 
-
 <script> 
-  import axios from 'axios';
-  export default{
-    name:'TestimonialSection',
-    data(){
-      return{
-       posts:[],
+  // jquery
+   export default {
+    name: 'TestimonialSection',
+    data () {
+      return {
+        
       }
     },
-    mounted(){
-      axios.get('https://jsonplaceholder.typicode.com/comments').then((response)=>{
-          console.log(response.data.name,"name")
-         this.posts = response.data
-        }).catch((error) =>{
-          console.log(error)
-        })
+    mounted () {
+      this.testimonialAnimation()
     },
-    computed: {
-    postsLimited() {
-        return this.posts.slice(0,4)
+    methods: {
+      testimonialAnimation: function() {
+        
+
+        // -----------
+        imageMoving(".testimonial__area", ".testimonial__img img")
+         // Image Moving with Cursor Function
+  function imageMoving(wrapper, image_list) {
+    let container = document.querySelector(wrapper)
+    try {
+      if (container) {
+        container.addEventListener("mousemove", (e) => {
+
+          var x = e.clientX
+          var y = e.clientY
+          let viewportWidth = window.innerWidth;
+          let viewportHeight = window.innerHeight;
+          let center = viewportWidth / 2
+          let centerHeight = viewportHeight / 2
+
+          if (x > center) {
+            gsap.to(image_list, {
+              x: 15,
+              duration: 5,
+              ease: "power4.out"
+            })
+          }
+          else {
+            gsap.to(image_list, {
+              x: -15,
+              duration: 5,
+              ease: "power4.out"
+            })
+          }
+          if (y > centerHeight) {
+            gsap.to(image_list, {
+              y: 15,
+              duration: 5,
+              ease: "power4.out"
+            })
+          }
+          else {
+            gsap.to(image_list, {
+              y: -15,
+              duration: 5,
+              ease: "power4.out"
+            })
+          }
+        });
+      }
     }
-}
-
-   
+    catch (err) {
+      console.log(err)
+    }
   }
+  /////////////////////////////////////////////////////
+
+  }
+      }
+    }
+  
 </script>
-<style scoped>
- *{
-  margin: 0;
-  padding: 0;
- }
- a{
-  text-decoration: none;
- }
- .testimonials{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
- }
- .testimonial-heading{
-  letter-spacing: 1px;
-  margin: 20px 0px;
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .testimonial-heading h1{
-  font-size: 2.2rem;
-  font-weight: 500;
-  background-color: #202020;
-  color: #ffffff;
-  padding:10px 20px;
- }
- .testimonial-heading span{
-  font-size: 1.3rem;
-  color: #252525;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
- }
- .testimonial-box-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 90%;
- }
- .testimonial-box{
-  width:500px;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 10px;
-  cursor: pointer;
- }
- .profile-img{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 10px;
-
- }
- .profile-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-
- }
-
- .profile{
-  display: flex;
-  align-items: center;
- }
-.name-user{
-  display: flex;
-  flex-direction: column;
-
+<style> 
+.testimonial__area img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
-.name-user strong{
-  color: #3d3d3d;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-
+  @media only screen and (max-width: 1200px){
+    .sec-sub-title {
+    font-size: 50px;
+    font-weight: 500;
 }
-.name-user span{
-  color: #979797;
-  font-size: 0.8rem;
-
-}
-.reviews{
-  color: #f9d71c;
-}
-
-.box-top{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.client-comment p{ 
-  font-size: 0.9rem;
-  color: #4b4b4b;
-
-}
-.testimonial-box:hover{
-  transform: translate(-10px);
-  transition: all ease 0.3s;
-}
+  }
 
 </style>

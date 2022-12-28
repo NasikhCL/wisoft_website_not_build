@@ -44,7 +44,7 @@
                   </div>
                 </div>
                 <div class="portfolio__item">
-                  <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image"></a>
+                  <!-- <a href="portfolio-details.html"><img src="@/assets/imgs/portfolio/1/2.jpg" alt="Portfolio Image"></a> -->
                   <div class="portfolio__info">
                     <h3 class="portfolio__title">Arteck Lyon Conseil</h3>
                     <p>02 May 2021</p>
@@ -57,8 +57,8 @@
             <div class="row row_bottom">
               <div class="col-xxl-12">
                 <div class="portfolio__btn" id="btn_wrapper" data-speed="1" data-lag="0.2">
-                  <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>View <br>all
-                    projects <i class="fa-solid fa-arrow-right"></i></a>
+                  <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span> Free <br> Consultation
+                    <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -157,3 +157,12 @@
     }
   }
 </script>
+
+<style>
+ .row_bottom .portfolio__btn{
+  margin-top: 50px;
+ }
+ .portfolio__btn .btn-item{
+  text-align: center;
+ }
+</style>
