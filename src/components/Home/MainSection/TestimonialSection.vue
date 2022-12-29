@@ -58,6 +58,8 @@
 
 <script> 
   // jquery
+  import $ from "jquery";
+  import { gsap } from 'gsap';
    export default {
     name: 'TestimonialSection',
     data () {

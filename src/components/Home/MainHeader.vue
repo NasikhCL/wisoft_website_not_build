@@ -184,6 +184,9 @@
                   <li><a>Design Studio dark</a></li>
                   <li><a>Digital Agency</a></li>
                   <li><a>Digital Agency dark</a></li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
                 </ul>
               </li>
              
@@ -202,21 +205,21 @@
         <div class="offcanvas__contact">
           <h3>Get in touch</h3>
           <ul>
-            <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
-            <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
-            <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+            <li><a href="tel:+971 43210710">+971 43210710</a></li>
+            <li><a href="mailto:Contact@wisoftsolutions.com">Contact@wisoftsolutions.com</a></li>
+            <li>P.O Box:237159, office M-38,<br>Curve Building, Sheikh Zayed Road, Dubai</li>
           </ul>
         </div>
         <!-- <img src="@/assets/imgs/shape/11.png" alt="shape" class="shape-1">
         <img src="@/assets/imgs/shape/12.png" alt="shape" class="shape-2"> -->
       </div>
       
-      <!--  -->
+      
       <div class="offcanvas__close">
         <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
       </div>
-      <floating-whatsapp></floating-whatsapp>
-        <floating-chat></floating-chat>
+      <floating-whatsapp></floating-whatsapp><floating-chat></floating-chat>
+        
     </div>
   </div>
   
@@ -226,7 +229,7 @@
 
 <script>
 import FloatingWhatsapp from "./FloatingWhatsapp.vue";
-import FloatingChat from './FloatingChat.vue'
+import FloatingChat from './FloatingChat.vue';
 import $ from "jquery";
 
 export default {

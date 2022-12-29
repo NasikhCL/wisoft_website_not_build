@@ -11,7 +11,7 @@
           <div class="row footer__row">
             <div class="col-xxl-12">
               <div class="footer__inner">
-                <div class="footer__widget">
+                <div class="footer__widget" style="width:230px">
                   <h2 class="footer__widget-title">Looking For</h2>
                   <div style="display:flex; flex:wrap;  ;">
                     <ul class="footer__link" style="margin-right:30px">
@@ -65,12 +65,12 @@
                   </ul>
                 </div> -->
 
-                <div class="footer__widget-3">
+                <div class="footer__widget-3" style="width:420px;">
                   <h2 class="footer__widget-title">Contact Us</h2>
-                  <ul class="footer__contact">
+                  <!-- <ul class="footer__contact">
                     <p>UAE</p>
                     <li>Valentin, Street Road 24, New York, USA - 67452</li>
-                    <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li>
+                    <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li> -->
                     <!-- <p>UAE</p>
                     <li>Valentin, Street Road 24, New York, USA - 67452</li>
                     <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li> -->
@@ -78,8 +78,9 @@
                     <li>Valentin, Street Road 24, New York, USA - 67452</li>
                     <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li> -->
                     
-                  </ul>
+                  <!-- </ul> -->
                   <!--  -->
+                  <contact-information></contact-information>
                   
                 </div>
 
@@ -123,3 +124,12 @@
       margin-top: 0;
     }     
 </style>
+<script> 
+import ContactInformation from './MainSection/ContactInformation.vue';
+  export default{
+    name : 'FooterPage',
+    components:{
+      ContactInformation
+    }
+  }
+</script>
