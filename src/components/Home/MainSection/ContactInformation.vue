@@ -127,6 +127,7 @@ body {
 
 .tabset {
   max-width: 65em;
+  margin-left:107px ;
 }
 .tab-panels i{
     margin-right:10px;

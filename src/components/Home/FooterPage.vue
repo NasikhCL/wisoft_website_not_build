@@ -15,18 +15,18 @@
                   <h2 class="footer__widget-title">Looking For</h2>
                   <div style="display:flex; flex:wrap;  ;">
                     <ul class="footer__link" style="margin-right:30px">
-                    <li><a href="about.html">About </a></li>
-                    <li><a href="portfolio.html">Case Study</a></li>
+                    <li><a><router-link to="/About">About</router-link></a></li>
+                    <!-- <li><a href="portfolio.html">Case Study</a></li> -->
                     <li><a href="career.html">Career</a></li>
-                    <li><a href="blog.html">blog</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a><router-link to="/Blog">Blog</router-link></a></li>
+                    <li><a><router-link to="/Contact">Contact</router-link></a></li>
                   </ul>
                   <ul class="footer__link" >
-                    <li><a href="about.html">About </a></li>
-                    <li><a href="portfolio.html">Case Study</a></li>
+                    <li><a><router-link to="/About">About</router-link></a></li>
+                    <!-- <li><a href="portfolio.html">Case Study</a></li> -->
                     <li><a href="career.html">Career</a></li>
-                    <li><a href="blog.html">blog</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a><router-link to="/Blog">Blog</router-link></a></li>
+                    <li><a><router-link to="/Contact">Contact</router-link></a></li>
                   </ul>
                   
                   </div>
@@ -66,7 +66,7 @@
                 </div> -->
 
                 <div class="footer__widget-3" style="width:420px;">
-                  <h2 class="footer__widget-title">Contact Us</h2>
+                  <h2 class="footer__widget-title contact-title">Contact Us</h2>
                   <!-- <ul class="footer__contact">
                     <p>UAE</p>
                     <li>Valentin, Street Road 24, New York, USA - 67452</li>
@@ -87,8 +87,9 @@
                 <div class="footer__widget-4">
                   <h2 class="project-title">Have a project in your mind?</h2>
                   <div id="btn_wrapper">
-                    <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
-                        class="fa-solid fa-arrow-right"></i></a>
+                    <a class="wc-btn-primary btn-hover btn-item"><span></span><router-link to="/Contact">Contact us
+                     <i class="fa-solid fa-arrow-right"></i></router-link>
+                    </a>
                   </div>
                   <ul class="footer__social">
                     <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
@@ -123,6 +124,9 @@
     .footer__inner{
       margin-top: 0;
     }     
+    .contact-title{
+      margin-left:186px;
+    }
 </style>
 <script> 
 import ContactInformation from './MainSection/ContactInformation.vue';

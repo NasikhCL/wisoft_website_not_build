@@ -1,5 +1,6 @@
 <template>
-    <div>
+  <div>
+     
       
     <!-- Header area start -->
   <header class="header__area-3">
@@ -73,10 +74,10 @@
         </div> -->
         <div class="offcanvas__links" style="margin-top:150px;">
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a><router-link to="/About">About</router-link></a></li>
+            <li><a><router-link to="/Contact">Contact</router-link></a></li>
             <li><a href="career.html">Career</a></li>
-            <li><a href="blog.html">blog</a></li>
+            <li><a><router-link to="/Blog">Blog</router-link></a></li>
           </ul>
         </div>
       </div>

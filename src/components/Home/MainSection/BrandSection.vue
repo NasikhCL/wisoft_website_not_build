@@ -4,7 +4,7 @@
         <div class="container pt-140 pb-140">
           <div class="row">
             <div class="col-xxl-12">
-              <h2 class="brand__title-3 title-anim">We worked with global largest brands
+              <h2 class="brand__title-3 title-anim brand-4">We Create Bussiness<br>just ask for these brands 
               </h2>
               <div class="brand__list-3">
                 <div class="brand__item-2 fade_bottom">
@@ -30,6 +30,9 @@
           </div>
         </div>
       </section>
+      <section>
+        <google-review></google-review>
+      </section>
     </div>
 </template>
 
@@ -37,9 +40,13 @@
     import $ from "jquery";
     import gsap from "gsap";
     import { scrollTrigger } from "gsap/all";
+    import GoogleReview from './GoogleReview.vue'
     //gsap.registerPlugin(scrollTrigger)
     export default {
     name : "BrandSection",
+    components:{
+      GoogleReview,
+    },
     data(){
       return{
 
@@ -88,3 +95,11 @@
        }
     }}
 </script>
+
+<style scoped>
+.brand-4{
+  font-weight: 900;
+  font-size: 50px;
+  color: blue;
+}
+</style>

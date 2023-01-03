@@ -45,7 +45,7 @@
 </template>
 <script>
   import MainHeader from '../components/About/HeaderSection.vue'
-  import FooterPage from '../components/Contact/FooterSection.vue'
+  import FooterPage from '../components/Home/FooterPage.vue'
   import HeroPage from '../components/About/MainSections/HeroSection.vue'
   import StoryPage from '../components/About/MainSections/StorySection.vue'
   import CounterPage from '../components/About/MainSections/CounterSection.vue'
