@@ -1,7 +1,6 @@
 <template>
   <div>
-   <pre-loader></pre-loader>
-
+  
         <!-- Header navigation  -->
      
     <main-header></main-header>
@@ -24,7 +23,7 @@
 
 
 <script>
-import Preloader from "@/components/Home/Preloader.vue"
+
 import MainHeader from "../components/Home/MainHeader.vue"
 import HeroPage from "../components/Home/HeroPage.vue"
 import FooterPage from "../components/Home/FooterPage.vue"
@@ -36,7 +35,7 @@ import FloatingChat from "../components/Home/FloatingChat.vue"
 
 export default {
   components: {
-    Preloader,
+    // Preloader,
     MainHeader,
     HeroPage,
     FooterPage,

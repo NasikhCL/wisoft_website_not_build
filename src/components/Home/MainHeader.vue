@@ -1,7 +1,5 @@
 <template>
   <div>
-     
-      
     <!-- Header area start -->
   <header class="header__area-3">
     <div class="header__inner-3">
