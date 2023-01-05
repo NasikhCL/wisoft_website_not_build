@@ -32,7 +32,7 @@
         <!-- CTA area start -->
         <cta-page></cta-page>
       </main>
-
+      <floating-whatsapp></floating-whatsapp>
       <!-- Footer area start -->
       <footer-page></footer-page>
     
@@ -52,9 +52,10 @@
   import TeamPage from '../components/About/MainSections/TeamSection.vue'
   import BrandPage from '../components/About/MainSections/BrandAreaSection.vue'
   import TestimonialPage from '../components/About/MainSections/TestimonialSection.vue'
+  import FloatingWhatsapp from '@/components/Home/FloatingWhatsapp.vue'
 
 export default {
-  components: { MainHeader, HeroPage, StoryPage, FooterPage,CounterPage,TeamPage,BrandPage,TestimonialPage},
+  components: { MainHeader, HeroPage, StoryPage, FooterPage,CounterPage,TeamPage,BrandPage,TestimonialPage,FloatingWhatsapp},
     name : 'AboutPage'
 }
 </script>

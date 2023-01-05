@@ -1,5 +1,8 @@
 <template>
     <div>
+      <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
         <section class="hero__area-3">
         <div class="container">
           <div class="row">
@@ -51,6 +54,9 @@
           <img src="@/assets/imgs/hero/3/1.jpg" alt="Hero Image" class="hero3-img">
         </div>
       </section>
+      </main>
+      </div>
+      </div>
     </div>
 </template>
 <!-- <script>

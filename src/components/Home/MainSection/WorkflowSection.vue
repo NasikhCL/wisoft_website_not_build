@@ -1,5 +1,8 @@
 <template>
     <div>
+      <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
         <section class="workflow__area-3">
         <div class="workflow__wrapper-3">
           <div class="choose-wrapper wf_panel">
@@ -128,6 +131,9 @@
 
         </div>
       </section>
+      </main>
+      </div>
+      </div>
     </div>
 </template>
 

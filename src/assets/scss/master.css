@@ -4453,7 +4453,7 @@ img {
 }
 .offcanvas__mid {
   overflow: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 @media only screen and (max-width: 767px) {
   .offcanvas__mid {

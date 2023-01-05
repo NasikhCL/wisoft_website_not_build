@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
     <section class="service__area-6">
           <div class="container">
             <div class="row inherit-row">
@@ -272,6 +275,9 @@
             </div>
           </div>
         </section>
+        </main>
+        </div>
+        </div>
   </div>
 </template>
 <script>

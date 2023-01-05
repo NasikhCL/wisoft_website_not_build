@@ -1,5 +1,5 @@
 <template>
     <div>
-        Asinnnnnn
+        Preloader here
     </div>
 </template>

@@ -18,71 +18,154 @@
         </header>
         <!-- Header section Ends -->
 
-        <!-- offcanvas section starts -->
-        <div class="offcanvas__area">
-            <div class="offcanvas__body">
-            <div class="offcanvas__left">
-                <div class="offcanvas__logo">
-                <router-link to="/Home">Home<img src="@/assets/imgs/logo/site-logo-white-2.png" alt="Offcanvas Logo"></router-link>
-                </div>
-                <div class="offcanvas__social">
-                <h3 class="social-title">Follow Us</h3>
-                <ul>
-                    <li><a href="#">Dribbble</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">YouTube</a></li>
+   <!-- Offcanvas area start -->
+   <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="@/assets/imgs/logo/wisoft-logo1.png" alt="Offcanvas Logo" style="width:90% ; height:50px"></a>
+        </div>
+        <!-- <div class="offcanvas__social">
+          <h3 class="social-title">Follow Us</h3>
+          <ul> -->
+            <!-- <li><a href="#">Dribbble</a></li> -->
+            <!-- <li><a href="#">Behance</a></li> -->
+            <!-- <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div> -->
+        <div class="offcanvas__links" style="margin-top:150px;">
+          <ul>
+            <li><a><router-link to="/About">About</router-link></a></li>
+            <li><a><router-link to="/Contact">Contact</router-link></a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a><router-link to="/Blog">Blog</router-link></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu" >
+           
+            <ul class="menu-anim" style="padding-left:10px; margin-top: 100px; display:flex; justify-content:space-around; flex-wrap: wrap;padding:0; list-style-type: none; ">
+              <!-- <ul class="menu-anim" style="display:flex; justify-content: space-between; flex-wrap: wrap;"> -->
+              <div  style="border-right: 0.5px solid grey; padding-right:20px ;">
+                <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
                 </ul>
-                </div>
-                <div class="offcanvas__links">
-                <ul>
-                    <!-- <router-link to="/Home">Home</router-link> -->
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="career.html">Career</a></li>
-                    <li><a href="blog.html">blog</a></li>
+              </li>
+              
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
                 </ul>
-                </div>
-            </div>
-            <div class="offcanvas__mid">
-                <div class="offcanvas__menu-wrapper">
-                <nav class="offcanvas__menu">
-                    <ul class="menu-anim">
-                    <li><a><router-link to="/">Home</router-link></a></li>
-                    <li><router-link to="/About">About</router-link></li>
-                    <li> <router-link to="/Pages">Pages</router-link></li>
-                    <li><router-link to="/Services">Services</router-link></li>
-                    <li><router-link to="/Team">Team</router-link></li>
-                    <li><router-link to="/Blog">Blog</router-link></li>
-                    <li><router-link to="/Contact">Contact</router-link></li>
-                    <li><router-link to="/Contact">Other</router-link></li>
-                    <li><router-link to="/Contact">Contact</router-link></li>
-                    </ul>
-                </nav>
-                </div>
-            </div>
-            <div class="offcanvas__right">
-                <div class="offcanvas__search">
-                <form action="#">
-                    <input type="text" name="search" placeholder="Search keyword">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-                </div>
-                <div class="offcanvas__contact">
-                <h3>Get in touch</h3>
-                <ul>
-                    <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
-                    <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
-                    <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+              </li>
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
                 </ul>
-                </div>
-                <img src="@/assets/imgs/shape/11.png" alt="shape" class="shape-1">
-                <img src="@/assets/imgs/shape/12.png" alt="shape" class="shape-2">
-            </div>
+              </li>
+             
+              </div>
+              <div style="border-right: 0.2px solid grey; padding-right:20px ;">
+                <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+             
+              </div>
+              <div>
+                <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              <li>Digital Marketing Service
+                <ul style="padding:0; list-style-type: none; ">
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+             
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+            <!-- close button -->
             <div class="offcanvas__close">
                 <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
             </div>
+            <floating-whatsapp></floating-whatsapp>
             </div>
         </div>
   <!-- offcancas area ends -->
@@ -91,8 +174,98 @@
 
 
 <script>
+import FloatingWhatsapp from '../Home/FloatingWhatsapp.vue'
+import $ from "jquery";
 export default {
     name : 'HeaderSection',
-   
+    components: {
+  FloatingWhatsapp,
+  // FloatingChat,
+ },
+    mounted (){
+  this.offcanvas()
+ },
+ methods: {
+  offcanvas: function(){
+    $("#open_offcanvas").click(function () {
+    $('.offcanvas__area').css('opacity', '1');
+    $('.offcanvas__area').css('visibility', 'visible');
+  });
+  $("#close_offcanvas").click(function () {
+    $('.offcanvas__area').css('opacity', '0');
+    $('.offcanvas__area').css('visibility', 'hidden');
+  });
+  // search icon js
+
+  let header_search = document.querySelector(".header__search");
+  let search_icon = document.querySelector("#search_icon");
+  let search_close = document.querySelector("#search_close");
+  if (header_search) {
+    search_icon.addEventListener("click", function () {
+      header_search.classList.add('open-search');
+      search_icon.style.display = 'none';
+      search_close.style.display = 'block';
+    });
+
+    search_close.addEventListener("click", function () {
+      header_search.classList.remove('open-search');
+      search_icon.style.display = 'block';
+      search_close.style.display = 'none';
+    });
+  }
+  },
+}
 }
 </script>
+
+<style scoped>
+ .list-menu {
+   display: flex;
+   flex-direction: row-reverse;
+   margin-top: 10px;
+   
+}
+.menu-top{
+  margin: 10px;
+}
+.list-menu button{
+  border: 1px solid black;
+  width:120px;
+  border-radius: 30px;
+  padding: 3px;
+}
+.list-menu button:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+.list-menu li{
+  margin: 0px;
+  padding: 0 15px !important;
+}
+ /* hambourger */
+
+ .offcanvas__menu{
+  margin: 30px;
+  margin-left: 0;
+ }
+ .offcanvas__menu ul li {
+  color: yellow;
+ }
+ .offcanvas__menu ul li a {
+  color: grey;
+ }
+ .offcanvas__menu ul li a:hover {
+  color: white;
+ }
+
+ .menu-anim li{
+  /* margin: 20px; */
+  margin: 10px 0 10px 0;
+ }
+ .offcanvas__mid{
+  /* overflow-y: hidden; */
+ }
+ .offcanvas__links li a{
+  font-size: 40px;
+ }
+</style>

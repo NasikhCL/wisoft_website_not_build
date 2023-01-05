@@ -44,7 +44,7 @@
 	-webkit-animation: AnimationB 4s infinite ease-in-out;
 	-moz-animation: AnimationB 4s infinite ease-in-out;
 	animation: AnimationB 4s infinite ease-in-out;
-	background-image: url('animated-overlay.gif');
+	/* background-image: url('animated-overlay.gif'); */
 }
 .sonny_progressbar .bar-container.border .bar, .sonny_progressbar .bar-container.border .targetBar, .sonny_progressbar .bar-container.border .backgroundBar {
 	border-bottom: 3px solid rgba(0,0,0,.2);

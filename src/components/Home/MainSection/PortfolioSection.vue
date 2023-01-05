@@ -1,6 +1,9 @@
 <template>
   <div>
            <!-- Portfolio area start -->
+           <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
            <section class="portfolio__area pb-140">
           <div class="container">
             <div class="row top_row">
@@ -64,6 +67,9 @@
             </div>
           </div>
         </section>
+        </main>
+        </div>
+        </div>
         <!-- Portfolio area end -->
 
 

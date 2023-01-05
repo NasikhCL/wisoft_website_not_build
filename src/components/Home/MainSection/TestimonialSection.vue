@@ -1,6 +1,9 @@
 <template>
   <div>
      <!-- Testimonial area start -->
+     <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
      <section class="testimonial__area">
           <div class="container g-0 line">
             <span class="line-3"></span>
@@ -52,6 +55,9 @@
             </div>
           </div>
         </section>
+        </main>
+        </div>
+        </div>
         <!-- Testimonial area end -->
   </div>
 </template>

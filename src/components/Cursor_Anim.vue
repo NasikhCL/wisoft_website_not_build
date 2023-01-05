@@ -1,9 +1,7 @@
 
 <template>
     <div>
-        <!-- <div class="cursor" id="cursor"></div>
-        <div class="cursor2" id="cursor2"></div>
-        <div class="cursor3" id="cursor3"></div> -->
+        
           <!-- Cursor Animation -->
   <div class="cursor1"></div>
   <div class="cursor2"></div>
@@ -146,4 +144,11 @@ document.addEventListener("mousemove", mousemoveHandler);
     }
   }
 </script>
-
+<style>
+ .cursor1{
+  z-index: 999999;
+ }
+ .cursor2{
+  z-index: 9999999;
+ }
+</style>

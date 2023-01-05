@@ -1,5 +1,9 @@
 <template>
     <div>
+      
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
         <section class="about__area-3">
         <div class="container pt-140 pb-110">
           <div class="row">
@@ -31,6 +35,9 @@
           </div>
         </div>
       </section>
+      </main>
+      </div>
+      </div>
     </div>
 </template>
 

@@ -16,7 +16,7 @@ import "./assets/css/all.min.css"
 import "./assets/css/bootstrap.min.css"
 import "./assets/css/locomotive-scroll.min.css"
 import "./assets/css/meanmenu.min.css"
-// import "./assets/css/progressbar.css"
+ import "./assets/css/progressbar.css"
 import "./assets/css/swiper-bundle.min.css"
 import "./assets/css/master.css"
 // scss

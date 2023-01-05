@@ -1,5 +1,6 @@
 <template>
   <div>
+    <cursor_anim></cursor_anim>
     <!-- Header area start -->
   <header class="header__area-3">
     <div class="header__inner-3">
@@ -194,48 +195,33 @@
           </nav>
         </div>
       </div>
-      <div class="offcanvas__right">
-        <div class="offcanvas__search">
-          <form action="#">
-            <input type="text" name="search" placeholder="Search keyword">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-          </form>
-        </div>
-        <div class="offcanvas__contact">
-          <h3>Get in touch</h3>
-          <ul>
-            <li><a href="tel:+971 43210710">+971 43210710</a></li>
-            <li><a href="mailto:Contact@wisoftsolutions.com">Contact@wisoftsolutions.com</a></li>
-            <li>P.O Box:237159, office M-38,<br>Curve Building, Sheikh Zayed Road, Dubai</li>
-          </ul>
-        </div>
-        <!-- <img src="@/assets/imgs/shape/11.png" alt="shape" class="shape-1">
-        <img src="@/assets/imgs/shape/12.png" alt="shape" class="shape-2"> -->
-      </div>
+      
       
       
       <div class="offcanvas__close">
         <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
       </div>
-      <floating-whatsapp></floating-whatsapp><floating-chat></floating-chat>
+      <floating-whatsapp></floating-whatsapp>
         
     </div>
   </div>
-  
+ 
 </div>
 </template>
 
 
 <script>
+import Cursor_Anim from "../Cursor_Anim.vue"
 import FloatingWhatsapp from "./FloatingWhatsapp.vue";
-import FloatingChat from './FloatingChat.vue';
+
 import $ from "jquery";
 
 export default {
  name : "MainHeader",
  components: {
   FloatingWhatsapp,
-  FloatingChat,
+  // FloatingChat,
+  Cursor_Anim,
  },
  data(){
   return{
@@ -327,6 +313,8 @@ export default {
  .offcanvas__links li a{
   font-size: 40px;
  }
+
+ /*  */
 </style>
 
 

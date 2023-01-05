@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div id="smooth-wrapper">
+    <div id="smooth-content">
       <footer class="footer__area" data-scroll-section>
       <div class="footer__top">
         <div class="container footer-line"></div>
@@ -117,6 +119,8 @@
         </div>
       </div>
     </footer>
+    </div>
+    </div>
   </div>
 </template>
 

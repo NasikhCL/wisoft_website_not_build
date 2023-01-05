@@ -122,7 +122,22 @@
               </div>
             </div>
           </div>
+          <floating-whatsapp></floating-whatsapp>
         </section>
         <!-- CTA area end -->
+        <div class="float-icon">
+          
+        </div>
+        
     </div>
 </template>
+
+<script> 
+import FloatingWhatsapp from '../Home/FloatingWhatsapp.vue';
+  export default{
+    name : 'MainSection',
+    components :{
+      FloatingWhatsapp
+    }
+  }
+</script>

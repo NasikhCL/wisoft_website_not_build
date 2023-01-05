@@ -1,5 +1,8 @@
 <template>
     <div>
+      <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
         <section class="brand__area">
         <div class="container pt-140 pb-140">
           <div class="row">
@@ -30,6 +33,9 @@
           </div>
         </div>
       </section>
+      </main>
+      </div>
+      </div>
       <section>
         <google-review></google-review>
       </section>
