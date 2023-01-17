@@ -1,25 +1,60 @@
 <template>
-    <div>
-        <header class="header__area">
-            <div class="header__inner">
-            <div class="header__logo">
-                <router-link to="/">
-                <img class="logo-primary" src="@/assets/imgs/logo/site-logo-white.png" alt="Site Logo">
-                <img class="logo-secondary" src="@/assets/imgs/logo/site-logo-white-2.png" alt="Moibile Logo">
-                </router-link>
-            </div>
-            <div class="header__nav-icon">
-                <button  id="open_offcanvas"><img src="@/assets/imgs/icon/menu-white.png" alt="Menubar Icon"></button>
-            </div>
-            <div class="header__support">
-                <p>Support center <a href="tel:+9587325902">+9 587 325 902</a></p>
-            </div>
-            </div>
-        </header>
-        <!-- Header section Ends -->
+  <div>
+    <cursor_anim></cursor_anim>
+    <!-- Header area start -->
+  <header class="header__area-3">
+    <div class="header__inner-3">
+      <div class="header__logo-2">
+        <a href="" class="logo-dark"><img src="@/assets/imgs/logo/wisoft-logo1.png" alt="Site Logo" style="width:100% ; height:60px"></a>
+        <a href="" class="logo-light"><img src="@/assets/imgs/logo/wisoft-logo1.png" alt="Site Logo" style="width:100% ; height:60px"></a>
+      </div>
+      <div class="header__nav-2">
+        <ul class="main-menu-3 menu-anim list-menu">
+          <!-- <li>
+            <a><router-link to="/">HOME</router-link></a>
+          </li>
+          <li>
+            <a> <router-link to="/About">ABOUT</router-link></a>
+          </li>
+          <li>
+            <a><router-link to="/Pages">PAGES</router-link></a>
+          </li>
+          <li>
+            <a><router-link to="/Services">SERVICES</router-link></a>
+          </li>
+          <li>
+            <a><router-link to="/Team">TEAM</router-link></a>
+          </li>
+          <li>
+            <a><router-link to="/Blog">BLOG</router-link></a>
+          </li>
+          <li>
+            <a><router-link to="/Contact">CONTACT</router-link></a>
+          </li> -->
+          <li><button>Let's Talk</button></li>
+          <li><i class="fa-solid fa-phone"> </i>   (00000000)</li>
+          
+        </ul>
+     
+      </div>
+      <div class="header__nav-icon-3">
+        <button class="search-icon" id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <h6 class="menu-top">Menu</h6>  <button class="search-icon" id="search_close"><i class="fa-solid fa-xmark"></i></button>
+        <button id="open_offcanvas"><img src="@/assets/imgs/icon/menu-black.png" alt="Menubar Icon"></button>
+      </div>
+    </div>
+  </header>
 
-   <!-- Offcanvas area start -->
-   <div class="offcanvas__area">
+  <div class="header__search">
+    <form action="#">
+      <input type="text" name="s" id="s" placeholder="Search..">
+    </form>
+  </div>
+  <!-- Header area end -->
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
     <div class="offcanvas__body">
       <div class="offcanvas__left">
         <div class="offcanvas__logo">
@@ -160,29 +195,37 @@
           </nav>
         </div>
       </div>
-
-            <!-- close button -->
-            <div class="offcanvas__close">
-                <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <floating-whatsapp></floating-whatsapp>
-            </div>
-        </div>
-  <!-- offcancas area ends -->
+      
+      
+      
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <floating-whatsapp></floating-whatsapp>
+        
     </div>
+  </div>
+ 
+</div>
 </template>
 
 
 <script>
-import FloatingWhatsapp from '../Home/FloatingWhatsapp.vue'
+import Cursor_Anim from "../Cursor_Anim.vue"
+import FloatingWhatsapp from "../Home/FloatingWhatsapp.vue";
 import $ from "jquery";
 export default {
-    name : 'HeaderSection',
-    components: {
+ name : "MainHeader",
+ components: {
   FloatingWhatsapp,
   // FloatingChat,
+  Cursor_Anim,
  },
-    mounted (){
+ data(){
+  return{
+  }
+ },
+ mounted (){
   this.offcanvas()
  },
  methods: {
@@ -196,7 +239,6 @@ export default {
     $('.offcanvas__area').css('visibility', 'hidden');
   });
   // search icon js
-
   let header_search = document.querySelector(".header__search");
   let search_icon = document.querySelector("#search_icon");
   let search_close = document.querySelector("#search_close");
@@ -206,7 +248,6 @@ export default {
       search_icon.style.display = 'none';
       search_close.style.display = 'block';
     });
-
     search_close.addEventListener("click", function () {
       header_search.classList.remove('open-search');
       search_icon.style.display = 'block';
@@ -217,19 +258,20 @@ export default {
 }
 }
 </script>
-
 <style scoped>
  .list-menu {
-   display: flex;
+   /* display: flex;
    flex-direction: row-reverse;
-   margin-top: 10px;
+   margin-top: 10px; */
+   /* display: grid; */
+
    
 }
 .menu-top{
   margin: 10px;
 }
 .list-menu button{
-  border: 1px solid black;
+  border: 1px solid rgb(38, 37, 37);
   width:120px;
   border-radius: 30px;
   padding: 3px;
@@ -243,7 +285,6 @@ export default {
   padding: 0 15px !important;
 }
  /* hambourger */
-
  .offcanvas__menu{
   margin: 30px;
   margin-left: 0;
@@ -252,20 +293,20 @@ export default {
   color: yellow;
  }
  .offcanvas__menu ul li a {
-  color: grey;
+  color: rgb(82, 82, 82);
  }
  .offcanvas__menu ul li a:hover {
   color: white;
  }
-
  .menu-anim li{
   /* margin: 20px; */
   margin: 10px 0 10px 0;
  }
  .offcanvas__mid{
-  /* overflow-y: hidden; */
+  overflow-y: scroll !important;;
  }
  .offcanvas__links li a{
   font-size: 40px;
  }
+ /*  */
 </style>

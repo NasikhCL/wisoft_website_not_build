@@ -165,10 +165,10 @@
 </script>
 
 <style>
- .row_bottom .portfolio__btn{
+ /* .row_bottom .portfolio__btn{
   margin-top: 50px;
  }
  .portfolio__btn .btn-item{
   text-align: center;
- }
+ } */
 </style>

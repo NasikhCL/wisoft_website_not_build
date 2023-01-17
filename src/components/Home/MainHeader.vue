@@ -1,6 +1,7 @@
 <template>
   <div>
     <cursor_anim></cursor_anim>
+    
     <!-- Header area start -->
   <header class="header__area-3">
     <div class="header__inner-3">
@@ -55,23 +56,13 @@
 
   <!-- Offcanvas area start -->
   <div class="offcanvas__area">
-    <div class="offcanvas__body">
+    <div class="offcanvas__body body-canvas">
       <div class="offcanvas__left">
         <div class="offcanvas__logo">
           <a href="index.html"><img src="@/assets/imgs/logo/wisoft-logo1.png" alt="Offcanvas Logo" style="width:90% ; height:50px"></a>
         </div>
-        <!-- <div class="offcanvas__social">
-          <h3 class="social-title">Follow Us</h3>
-          <ul> -->
-            <!-- <li><a href="#">Dribbble</a></li> -->
-            <!-- <li><a href="#">Behance</a></li> -->
-            <!-- <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">YouTube</a></li>
-          </ul>
-        </div> -->
-        <div class="offcanvas__links" style="margin-top:150px;">
+
+        <div class="offcanvas__links side-links">
           <ul>
             <li><a><router-link to="/About">About</router-link></a></li>
             <li><a><router-link to="/Contact">Contact</router-link></a></li>
@@ -84,11 +75,11 @@
         <div class="offcanvas__menu-wrapper">
           <nav class="offcanvas__menu" >
            
-            <ul class="menu-anim" style="padding-left:10px; margin-top: 100px; display:flex; justify-content:space-around; flex-wrap: wrap;padding:0; list-style-type: none; ">
-              <!-- <ul class="menu-anim" style="display:flex; justify-content: space-between; flex-wrap: wrap;"> -->
-              <div  style="border-right: 0.5px solid grey; padding-right:20px ;">
-                <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+            <ul class="menu-anim list-class" >
+              
+              <div>
+                <li class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
@@ -98,8 +89,8 @@
                 </ul>
               </li>
               
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+              <li  class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
@@ -108,42 +99,8 @@
                   <li><a>Digital Agency dark</a></li>
                 </ul>
               </li>
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
-                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                  <li><a>Digital Maketing dark</a></li>
-                  <li><a>Design Studio</a> </li>
-                  <li><a>Design Studio dark</a></li>
-                  <li><a>Digital Agency</a></li>
-                  <li><a>Digital Agency dark</a></li>
-                </ul>
-              </li>
-             
-              </div>
-              <div style="border-right: 0.2px solid grey; padding-right:20px ;">
-                <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
-                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                  <li><a>Digital Maketing dark</a></li>
-                  <li><a>Design Studio</a> </li>
-                  <li><a>Design Studio dark</a></li>
-                  <li><a>Digital Agency</a></li>
-                  <li><a>Digital Agency dark</a></li>
-                </ul>
-              </li>
-              
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
-                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                  <li><a>Digital Maketing dark</a></li>
-                  <li><a>Design Studio</a> </li>
-                  <li><a>Design Studio dark</a></li>
-                  <li><a>Digital Agency</a></li>
-                  <li><a>Digital Agency dark</a></li>
-                </ul>
-              </li>
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+              <li  class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
@@ -155,8 +112,8 @@
              
               </div>
               <div>
-                <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+                <li  class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
@@ -166,8 +123,8 @@
                 </ul>
               </li>
               
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+              <li  class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
@@ -176,17 +133,48 @@
                   <li><a>Digital Agency dark</a></li>
                 </ul>
               </li>
-              <li>Digital Marketing Service
-                <ul style="padding:0; list-style-type: none; ">
+              <li  class="head-list">Digital Marketing Service
+                <ul>
                   <!-- <li><a href="index.html">Digital Maketing</a></li> -->
                   <li><a>Digital Maketing dark</a></li>
                   <li><a>Design Studio</a> </li>
                   <li><a>Design Studio dark</a></li>
                   <li><a>Digital Agency</a></li>
                   <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+             
+              </div>
+              <div>
+                <li  class="head-list">Digital Marketing Service
+                <ul>
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
                   <li><a>Design Studio dark</a></li>
                   <li><a>Digital Agency</a></li>
                   <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              
+              <li  class="head-list">Digital Marketing Service
+                <ul>
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+                  <li><a>Digital Agency dark</a></li>
+                </ul>
+              </li>
+              <li  class="head-list">Digital Marketing Service
+                <ul>
+                  <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                  <li><a>Digital Maketing dark</a></li>
+                  <li><a>Design Studio</a> </li>
+                  <li><a>Design Studio dark</a></li>
+                  <li><a>Digital Agency</a></li>
+               
                 </ul>
               </li>
              
@@ -201,9 +189,10 @@
       <div class="offcanvas__close">
         <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
       </div>
-      <floating-whatsapp></floating-whatsapp>
+     
         
     </div>
+    <floating-whatsapp></floating-whatsapp>
   </div>
  
 </div>
@@ -212,10 +201,8 @@
 
 <script>
 import Cursor_Anim from "../Cursor_Anim.vue"
-import FloatingWhatsapp from "./FloatingWhatsapp.vue";
-
+import FloatingWhatsapp from "../Home/FloatingWhatsapp.vue";
 import $ from "jquery";
-
 export default {
  name : "MainHeader",
  components: {
@@ -225,7 +212,6 @@ export default {
  },
  data(){
   return{
-
   }
  },
  mounted (){
@@ -242,7 +228,6 @@ export default {
     $('.offcanvas__area').css('visibility', 'hidden');
   });
   // search icon js
-
   let header_search = document.querySelector(".header__search");
   let search_icon = document.querySelector("#search_icon");
   let search_close = document.querySelector("#search_close");
@@ -252,7 +237,6 @@ export default {
       search_icon.style.display = 'none';
       search_close.style.display = 'block';
     });
-
     search_close.addEventListener("click", function () {
       header_search.classList.remove('open-search');
       search_icon.style.display = 'block';
@@ -264,7 +248,9 @@ export default {
 }
 </script>
 <style scoped>
- .list-menu {
+
+/* navbar main page */
+.list-menu {
    display: flex;
    flex-direction: row-reverse;
    margin-top: 10px;
@@ -272,6 +258,22 @@ export default {
 }
 .menu-top{
   margin: 10px;
+}
+.list-class{
+  margin-top: 100px; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  /* row-gap: 20px; */
+}
+.list-class ul li{
+  /* padding: 2rem; */
+  color: rgb(140, 129, 129);
+  margin: 12px;
+}
+.list-class div{
+  padding:2rem;
+  border-right: 1px solid rgb(53, 51, 51);
 }
 .list-menu button{
   border: 1px solid black;
@@ -288,55 +290,20 @@ export default {
   padding: 0 15px !important;
 }
  /* hambourger */
-
- .offcanvas__menu{
-  margin: 30px;
-  margin-left: 0;
+ .head-list{
+  color:yellow
  }
- .offcanvas__menu ul li {
-  color: yellow;
- }
- .offcanvas__menu ul li a {
-  color: grey;
- }
- .offcanvas__menu ul li a:hover {
-  color: white;
- }
-
- .menu-anim li{
-  /* margin: 20px; */
-  margin: 10px 0 10px 0;
- }
+.side-links{
+  margin-top: 120px!important;
+}
+.side-links li{
+  font-weight: 500;
+}
  .offcanvas__mid{
-  /* overflow-y: hidden; */
+  overflow: scroll;
  }
- .offcanvas__links li a{
-  font-size: 40px;
+ .body-canvas{
+  grid-template-columns: 0.8fr 3fr;
  }
-
  /*  */
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

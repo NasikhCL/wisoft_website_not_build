@@ -10,7 +10,7 @@
     <div>
       <a href="tel:987654321" class="float1" target="_blank">
         <!-- <a href="https://api.whatsapp.com/send?phone=7982325518&text=Hello, guruji customer care" class="float" target="_blank"></a> -->
-        <i class="fas fa-phone my-float"></i>
+        <i class="fas fa-comment my-float"></i>
         </a>
     </div>
   </div>
@@ -38,7 +38,7 @@
       height:60px;
       bottom:40px;
       right:40px;
-      background-color:#25d366;
+      background-color:#256a8f;
       color:#FFF;
       border-radius:50px;
       text-align:center;
@@ -58,7 +58,7 @@
       height:60px;
       bottom:40px;
       left:40px;
-      background-color:#a4cc3a;
+      background-color:#256a8f;
       color:#FFF;
       border-radius:50px;
       text-align:center;

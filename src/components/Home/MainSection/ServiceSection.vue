@@ -65,7 +65,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -103,7 +103,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -142,7 +142,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -179,7 +179,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -216,7 +216,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -253,7 +253,7 @@
                             <li>+ JavaScript</li>
                             <li>+ Fluter Framework</li>
                           </ul>
-                          <div style="display:flex">
+                          <div class="service-2btn">
                             <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Get
                               free
@@ -404,6 +404,13 @@
 }
 .pin-spacer .active a {
   color: black;
+}
+.service-2btn{
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+/* flex-wrap: wrap; */
+grid-template-columns: 1fr 1fr;
 }
 
 
