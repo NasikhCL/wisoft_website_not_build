@@ -65,9 +65,9 @@
 </template>
 <script>
    // jquery
-  //  import $ from "jquery";
-  //  import { gsap } from 'gsap';
-  //  import { SplitText } from 'gsap/SplitText'
+   import $ from "jquery";
+    import { gsap } from 'gsap';
+   import { SplitText } from 'gsap'
   //  gsap.registerPlugin(SplitText);
    export default {
     name: 'HeroSection',
@@ -81,11 +81,44 @@
     },
     methods: {
       HeroSectionAnimation: function(){
-         // toggle   
-     
+        
+          // Service Page hero Animation 
+        // let word_up = document.querySelector(".animation__word_up")
+        // let split_word_up = new SplitText(word_up, { type: "words", position: "absolute" })
+        // gsap.from(split_word_up.words, { duration: 1, y: 50, autoAlpha: 0, stagger: 0.05 });
 
-  /////////////////////////////////////////////////////
+        // Service Page hero Animation   
+        // let word_come = document.querySelectorAll(".animation__word_come")
+        // word_come.forEach((word_come) => {
+        //   let split_word_come = new SplitText(word_come, { type: "chars words", position: "absolute" })
+        //   gsap.from(split_word_come.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 });
+        // })
 
+        // Service Page hero Animation   
+        // let word_come_long = document.querySelectorAll(".animation__word_come_long")
+        // word_come_long.forEach((word_come_long) => {
+        //   let split_word_come_long = new SplitText(word_come_long, { type: "chars words", position: "absolute" })
+        //   gsap.from(split_word_come_long.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.5 });
+        // })
+    //     let splitTitleLines = gsap.utils.toArray(".title-anim");
+
+    //   splitTitleLines.forEach(splitTextLine => {
+    //   const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //       trigger: splitTextLine,
+    //       start: 'top 90%',
+    //       end: 'bottom 60%',
+    //       scrub: false,
+    //       markers: false,
+    //       toggleActions: 'play none none none'
+    //     }
+    //   });
+
+    //   const itemSplitted = new SplitText(splitTextLine, { type: "words, lines" });
+    //   gsap.set(splitTextLine, { perspective: 400 });
+    //   itemSplitted.split({ type: "lines" })
+    //   tl.from(itemSplitted.lines, { duration: 1, delay: 0.3, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
+    // });
  
 
     }

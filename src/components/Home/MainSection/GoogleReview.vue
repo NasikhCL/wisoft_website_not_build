@@ -1,5 +1,5 @@
 <template>
   <div>
-    hi
+    google review comes here
   </div>
 </template>

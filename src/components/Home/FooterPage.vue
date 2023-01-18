@@ -82,8 +82,7 @@
     }     
     .footer__widget-3 {
   grid-column: span 4;
-  padding: 140px 0 130px;
-  margin-right: -30px;
+  /* padding: 140px 0 130px; */
 }
 </style>
 <script> 

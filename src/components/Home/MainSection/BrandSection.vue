@@ -106,6 +106,6 @@
 .brand-4{
   font-weight: 900;
   font-size: 50px;
-  color: blue;
+  color: rgb(0, 0, 0);
 }
 </style>
