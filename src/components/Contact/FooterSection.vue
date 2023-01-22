@@ -17,10 +17,11 @@
                       avoid
                       them.</p>
                     <ul class="footer__social">
-                      <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                      <li><a href="https://www.facebook.com/wisoftsolutions/"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                      <li><a href="https://twitter.com/Wisoftsolutions"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/wisoftsolutions/"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a href="https://www.facebook.com/wisoftsolutions/"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCHc4sypQWl2HQx5jHm9GjHg"><span><i class="fa-brands fa-youtube"></i></span></a></li>
                     </ul>
                   </div>
 

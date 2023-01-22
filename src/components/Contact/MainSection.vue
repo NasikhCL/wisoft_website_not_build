@@ -22,9 +22,9 @@
               <div class="contact__info">
                 <h3 class="sub-title-anim-top animation__word_come">Don't be afraid man ! <br>say hello</h3>
                 <ul>
-                  <li><a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a></li>
-                  <li><a href="mailto:hello@example.com">hello@example.com</a></li>
-                  <li><span>230 Norman Street New York, <br> QC (USA) H8R 1A1</span></li>
+                  <li><a href="tel:+97143210710">+971 4 321 0710</a></li>
+                  <li><a href="mailto:hello@example.com">contact@wisoftsolutions.com</a></li>
+                  <li><span>Curve Building,Sheik Zayed Road <br> Dubai</span></li>
                 </ul>
               </div>
             </div>
@@ -65,7 +65,15 @@
             </div>
           </div>
         </div>
+        
       </section>
+      <div class="offcanvas__close">
+        <router-link :to="{ path: '/' }">
+          <button type="button" id="close_offcanvas">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </router-link>
+        </div>
   </div>
 </template>
 <script>
@@ -84,6 +92,10 @@ data(){
           }
   }
 },
+// mounted (){
+// this.offcanvascontact()
+// },
+
 methods : {
     getData(){
       axios.post('http://localhost:3000/users',
@@ -101,8 +113,28 @@ methods : {
           console.log(error)
           this.errorMSg = 'Error retriving data...'
       })
-  }
+  },
+
+methods:{
+  offcanvascontact(){
+  $("#open_offcanvas").click(function () {
+  $('.offcanvas__area').css('opacity', '1');
+  $('.offcanvas__area').css('visibility', 'visible');
+});
+$("#close_offcanvas").click(function () {
+  $('.offcanvas__area').css('opacity', '0');
+  $('.offcanvas__area').css('visibility', 'hidden');
+});
+},
+}
+
+
     }
+
+    // ofcnvas
+
     }
+
+    // offcanvs
 //  }
 </script>

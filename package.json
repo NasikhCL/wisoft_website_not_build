@@ -15,10 +15,12 @@
     "chroma-js": "^2.4.2",
     "core-js": "^3.8.3",
     "gsap": "^3.11.3",
+    "scrollmagic": "^2.0.8",
     "swiper": "^8.4.5",
     "vue": "^3.2.45",
     "vue-animated-cursor": "^1.0.3",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "vue-scrollmagic": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

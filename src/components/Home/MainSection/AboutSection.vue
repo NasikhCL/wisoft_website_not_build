@@ -26,7 +26,7 @@
                     insights with design, technological data to produce brand experiences that customers love our
                     services.</p>
                   <div id="btn_wrapper">
-                    <a class="wc-btn-light btn-hover btn-item" href="about.html"><span></span> Explore Us <i
+                    <a class="wc-btn-light btn-hover btn-item" href="/about"><span></span> About Us <i
                         class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>

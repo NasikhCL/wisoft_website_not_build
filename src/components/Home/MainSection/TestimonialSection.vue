@@ -26,8 +26,13 @@
                     <p>Our happy customers give us impactfull and positive feedback on our services, customer supports
                       &
                       etc.</p>
+                      <div class="hero-item-btn">
+                       <button class=" hero-btn1">Explore More</button>
+                      </div>
                   </div>
+                  
                 </div>
+                
 
                 <div class="testimonial__item item-2">
                   <div class="button modal-trigger-2">
@@ -40,6 +45,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div class="testimonial__item item-3 img-">
                   <div class="button modal-trigger-3">
@@ -52,6 +58,7 @@
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </section>
@@ -138,7 +145,22 @@
     }
   
 </script>
-<style> 
+<style scoped> 
+.hero-item-btn .hero-btn1{
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+.hero-item-btn .hero-btn1:hover{
+  color: white;
+  background: black;
+}
 .testimonial__area img {
     overflow-clip-margin: content-box;
     overflow: clip;

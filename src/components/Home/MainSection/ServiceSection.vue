@@ -73,8 +73,8 @@
                           </div>
                           <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
-                              Let's 
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                              Explore 
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                           
@@ -110,8 +110,8 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's 
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Explore 
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         
@@ -150,8 +150,8 @@
                           </div>
                           <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
-                              Let's
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                              Explore
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -186,9 +186,9 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Explore
                               
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -223,9 +223,8 @@
                               <br>qoutes <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           <div id="btn_wrapper">
-                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Let's
-                              
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>Explore
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -261,8 +260,8 @@
                           </div>
                           <div id="btn_wrapper">
                             <a href="service-details.html" class="wc-btn-secondary btn-item btn-hover"><span></span>
-                              Let's
-                              <br>Talk <i class="fa-solid fa-arrow-right"></i></a>
+                              Explore
+                              <br>More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                           </div>
                         </div>
@@ -412,7 +411,9 @@
 /* flex-wrap: wrap; */
 grid-template-columns: 1fr 1fr;
 }
-
+.service__area-6 .service__title-6{
+  margin-top: 0 !important;
+}
 
 /* .service__list-6 li{
   padding:10px

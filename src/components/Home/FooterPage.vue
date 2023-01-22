@@ -15,20 +15,20 @@
               <div class="footer__inner">
                 <div class="footer__widget">
                   <h2 class="footer__widget-title">Looking For</h2>
-                  <div style="display:flex; flex:wrap;  ;">
-                    <ul class="footer__link">
-                    <li><a><router-link to="/About">About</router-link></a></li>
+                  <div class="footer-linkss">
+                    <ul class="col-m-6 footer__link">
+                    <li><a><router-link to="">Lead Generation</router-link></a></li>
                     <!-- <li><a href="portfolio.html">Case Study</a></li> -->
-                    <li><a href="career.html">Career</a></li>
+                    <!-- <li><a href="career.html">Career</a></li>
                     <li><a><router-link to="/Blog">Blog</router-link></a></li>
-                    <li><a><router-link to="/Contact">Contact</router-link></a></li>
+                    <li><a><router-link to="/Contact">Contact</router-link></a></li> -->
                   </ul>
-                  <ul class="footer__link" >
-                    <li><a><router-link to="/About">About</router-link></a></li>
+                  <ul class="col-m-6 footer__link" >
+                    <li><a><router-link to="">Search Engine Optimiation</router-link></a></li>
                     <!-- <li><a href="portfolio.html">Case Study</a></li> -->
-                    <li><a href="career.html">Career</a></li>
+                    <!-- <li><a href="career.html">Career</a></li>
                     <li><a><router-link to="/Blog">Blog</router-link></a></li>
-                    <li><a><router-link to="/Contact">Contact</router-link></a></li>
+                    <li><a><router-link to="/Contact">Contact</router-link></a></li> -->
                   </ul>
                   
                   </div>
@@ -50,10 +50,11 @@
                     </a>
                   </div>
                   <ul class="footer__social">
-                    <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                    <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                    <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                    <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                    <li><a href="https://www.facebook.com/wisoftsolutions/"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                      <li><a href="https://twitter.com/Wisoftsolutions"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/wisoftsolutions/"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a href="https://www.facebook.com/wisoftsolutions/"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCHc4sypQWl2HQx5jHm9GjHg"><span><i class="fa-brands fa-youtube"></i></span></a></li>
                   </ul>
                 </div>
 
@@ -83,6 +84,12 @@
     .footer__widget-3 {
   grid-column: span 4;
   /* padding: 140px 0 130px; */
+}
+.footer-linkss{
+  display:flex; 
+  flex:wrap; 
+  justify-content: space-between;
+  margin-right: 30px;
 }
 </style>
 <script> 

@@ -73,8 +73,8 @@ import jQuery from 'jquery'
 window.jQuery = window.$ = jQuery
 import { gsap } from 'gsap';
 import chroma from "chroma-js"
-import {ScrollSmoother,SplitText,ScrollToPlugin,ScrollTrigger} from 'gsap';
-
+import {ScrollSmoother,SplitText,ScrollToPlugin,ScrollTrigger} from 'scrollmagic';
+// import {ScrollSmoother,SplitText,ScrollToPlugin,ScrollTrigger} from 'gsap';
 
 (function ($) {
   "use strict";

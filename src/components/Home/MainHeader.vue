@@ -7,12 +7,12 @@
       <div class="header__inner-3">
         <div class="header__logo-2">
           <a href="" class="logo-dark"
-            ><img
+            ><router-link to="/"></router-link><img
               src="@/assets/imgs/logo/wisoft-logo1.png"
               alt="Site Logo"
               style="width: 100%; height: 60px"
           /></a>
-          <a href="" class="logo-light"
+          <a href="/" class="logo-light"
             ><img
               src="@/assets/imgs/logo/wisoft-logo1.png"
               alt="Site Logo"
@@ -42,8 +42,10 @@
           <li>
             <a><router-link to="/Contact">CONTACT</router-link></a>
           </li> -->
-            <li><button>Let's Talk</button></li>
-            <li><i class="fa-solid fa-phone"> </i> (00000000)</li>
+            <li><router-link to="/Contact"><button>Let's Talk</button></router-link></li>
+            <li><a href=""><i class="fa-solid fa-phone"> </i> (00000000)</a></li>
+            
+            
           </ul>
         </div>
         <div class="header__nav-icon-3">
@@ -72,22 +74,22 @@
       <div class="mob">
           <ul role="menu" class="men">
             <li class="men-li" role="none">
-              <a href="https://www.digitalnexa.com/about-us" role="menuitem"
+              <a href="/" role="menuitem"
                 >Home</a
               >
             </li>
             <li class="men-li" role="none">
-              <a href="https://www.digitalnexa.com/about-us" role="menuitem"
+              <a href="/about" role="menuitem"
                 >About</a
               >
             </li>
             <li class="men-li" role="none">
-              <a href="https://www.digitalnexa.com/about-us" role="menuitem"
+              <a href="/contact" role="menuitem"
                 >Contact</a
               >
             </li>
             <li class="men-li" role="none">
-              <a href="https://www.digitalnexa.com/about-us" role="menuitem"
+              <a href="/blog" role="menuitem"
                 >Blog</a
               >
             </li>
@@ -97,57 +99,80 @@
             <ul>
               <li>
                 <div class="to-wrapper">
-                  <a href="">Digital Marketing Services</a>
+                  <a href="">Digital Marketing</a>
                   <button class="to-bu" @click="handleClick(1)">{{activesub==1?"-":"+"}}</button>
                 </div>
                 <ul class="cj" v-if="activesub == 1">
-                  <li><a href="">Service 1</a></li>
-                  <li><a href="">Service 2</a></li>
-                  <li><a href="">Service 2</a></li>
+                  <li><a>Lead Generation</a></li>
+                      <li><a>Content Marketing</a></li>
+                      <li><a>Marketing Automation</a></li>
+                      <li><a>Pay per click Advertising</a></li>
+                     <li><a>Programmatic Advertising</a></li>
                 </ul>
                 </li>
               <li>
                 <div class="to-wrapper">
-                  <a href="">Web Development Services</a>
+                  <a href=""> Technologies</a>
                   <button class="to-bu" @click="handleClick(2)">{{activesub==2?"-":"+"}}</button>
                 </div>
                 <ul class="cj" v-if="activesub == 2">
-                  <li><a href="">Service 1</a></li>
-                  <li><a href="">Service 2</a></li>
-                  <li><a href="">Service 2</a></li>
+                  <li><a>UI/UX Design Services</a></li>
+                      <li><a>Website Development</a></li>
+                      <li><a>Mobile App Development</a></li>
+                      <li><a>Web Annual Maintainance</a></li>
+                      <li><a>E-commerce Development</a></li>
+                      <li><a>CRM, Payment Gateway & Third Party System Integrations</a></li>
                 </ul>
                 </li>
                 <li>
                 <div class="to-wrapper">
-                  <a href="">Web Development Services</a>
-                  <button class="to-bu" @click="handleClick(2)">{{activesub==2?"-":"+"}}</button>
+                  <a href="">Creative Services</a>
+                  <button class="to-bu" @click="handleClick(3)">{{activesub==3?"-":"+"}}</button>
                 </div>
-                <ul class="cj" v-if="activesub == 2">
-                  <li><a href="">Service 1</a></li>
-                  <li><a href="">Service 2</a></li>
-                  <li><a href="">Service 2</a></li>
+                <ul class="cj" v-if="activesub == 3">
+                  <li><a>Logo Design & Brand Identity</a></li>
+                      <li><a>Graphic Design</a></li>
+                      <li><a>UI/UX Design</a></li>
+                      <li><a>Compaing Design</a></li>
+                      <li><a>Concept Design</a></li>
                 </ul>
                 </li>
                 <li>
                 <div class="to-wrapper">
-                  <a href="">Web Development Services</a>
-                  <button class="to-bu" @click="handleClick(2)">{{activesub==2?"-":"+"}}</button>
+                  <a href="">Search Engine Optimization</a>
+                  <button class="to-bu" @click="handleClick(4)">{{activesub==4?"-":"+"}}</button>
                 </div>
-                <ul class="cj" v-if="activesub == 2">
-                  <li><a href="">Service 1</a></li>
-                  <li><a href="">Service 2</a></li>
-                  <li><a href="">Service 2</a></li>
+                <ul class="cj" v-if="activesub == 4">
+                  <li><a>Local & Regional SEO</a></li>
+                      <li><a>Content Optimization</a></li>
+                      <li><a>Web Page Optimization</a></li>
+                      <li><a>Authority Link Developement</a></li>
+                      <li><a>SEO Analytics and Reporting</a></li>
+                      <li><a>Mobile Optimization</a></li>
                 </ul>
                 </li>
                 <li>
                 <div class="to-wrapper">
-                  <a href="">Web Development Services</a>
-                  <button class="to-bu" @click="handleClick(2)">{{activesub==2?"-":"+"}}</button>
+                  <a href=""> Social Media Marketing</a>
+                  <button class="to-bu" @click="handleClick(5)">{{activesub==5?"-":"+"}}</button>
                 </div>
-                <ul class="cj" v-if="activesub == 2">
-                  <li><a href="">Service 1</a></li>
-                  <li><a href="">Service 2</a></li>
-                  <li><a href="">Service 2</a></li>
+                <ul class="cj" v-if="activesub == 5">
+                  <li><a>Social Media Stategy</a></li>
+                      <li><a>Community Management</a></li>
+                      <li><a>Conent Creation</a></li>
+                      <li><a>Monitoring & Reporting</a></li>
+                      <li><a>Digital Agency dark</a></li>
+                </ul>
+                </li>
+                <li>
+                <div class="to-wrapper">
+                  <a href="">SMS Marketing</a>
+                  <button class="to-bu" @click="handleClick(6)">{{activesub==6?"-":"+"}}</button>
+                </div>
+                <ul class="cj" v-if="activesub == 6">
+                  <li><a>Global SMS Platform</a></li>
+                      <li><a>SMS Marketing</a></li>
+                      <li><a>2 Way SMS System</a></li>
                 </ul>
                 </li>
             </ul>
@@ -158,7 +183,7 @@
 
         <div class="offcanvas__left v">
           <div class="offcanvas__logo">
-            <a href="index.html"
+            <a href="/"
               ><img
                 src="@/assets/imgs/logo/wisoft-logo1.png"
                 alt="Offcanvas Logo"
@@ -187,108 +212,80 @@
               <ul class="menu-anim list-class">
                 <div>
                   <li class="head-list">
-                    Digital Marketing Service
+                    Digital Marketing
                     <ul>
                       <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
+                      <li><a>Lead Generation</a></li>
+                      <li><a>Content Marketing</a></li>
+                      <li><a>Marketing Automation</a></li>
+                      <li><a>Pay per click Advertising</a></li>
+                      <li><a>Programmatic Advertising</a></li>
                     </ul>
                   </li>
 
+                
                   <li class="head-list">
-                    Digital Marketing Service
+                    Technologies
                     <ul>
                       <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
-                    </ul>
-                  </li>
-                  <li class="head-list">
-                    Digital Marketing Service
-                    <ul>
-                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
+                      <li><a>UI/UX Design Services</a></li>
+                      <li><a>Website Development</a></li>
+                      <li><a>Mobile App Development</a></li>
+                      <li><a>Web Annual Maintainance</a></li>
+                      <li><a>E-commerce Development</a></li>
+                      <li><a>CRM, Payment Gateway & Third Party System Integrations</a></li>
                     </ul>
                   </li>
                 </div>
                 <div>
                   <li class="head-list">
-                    Digital Marketing Service
+                   Creative Services
                     <ul>
                       <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
+                      <li><a>Logo Design & Brand Identity</a></li>
+                      <li><a>Graphic Design</a></li>
+                      <li><a>UI/UX Design</a></li>
+                      <li><a>Compaing Design</a></li>
+                      <li><a>Concept Design</a></li>
+                    </ul>
+                  </li>
+                  <li class="head-list">
+                   Search Engine Optimization
+                    <ul>
+                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
+                      <li><a>Local & Regional SEO</a></li>
+                      <li><a>Content Optimization</a></li>
+                      <li><a>Web Page Optimization</a></li>
+                      <li><a>Authority Link Developement</a></li>
+                      <li><a>SEO Analytics and Reporting</a></li>
+                      <li><a>Mobile Optimization</a></li>
                     </ul>
                   </li>
 
-                  <li class="head-list">
-                    Digital Marketing Service
-                    <ul>
-                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
-                    </ul>
-                  </li>
-                  <li class="head-list">
-                    Digital Marketing Service
-                    <ul>
-                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
-                    </ul>
-                  </li>
+                  
+                  
                 </div>
                 <div>
                   <li class="head-list">
-                    Digital Marketing Service
+                    Social Media Marketing
                     <ul>
-                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
+                     
+                      <li><a>Social Media Stategy</a></li>
+                      <li><a>Community Management</a></li>
+                      <li><a>Conent Creation</a></li>
+                      <li><a>Monitoring & Reporting</a></li>
                       <li><a>Digital Agency dark</a></li>
                     </ul>
                   </li>
 
                   <li class="head-list">
-                    Digital Marketing Service
+                    SMS Marketing
                     <ul>
                       <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
-                      <li><a>Digital Agency dark</a></li>
-                    </ul>
-                  </li>
-                  <li class="head-list">
-                    Digital Marketing Service
-                    <ul>
-                      <!-- <li><a href="index.html">Digital Maketing</a></li> -->
-                      <li><a>Digital Maketing dark</a></li>
-                      <li><a>Design Studio</a></li>
-                      <li><a>Design Studio dark</a></li>
-                      <li><a>Digital Agency</a></li>
+                      <li><a>Global SMS Platform</a></li>
+                      <li><a>SMS Marketing</a></li>
+                      <li><a>2 Way SMS System</a></li>
+                    
                     </ul>
                   </li>
                 </div>
@@ -303,7 +300,7 @@
           </button>
         </div>
       </div>
-      <!-- <floating-whatsapp></floating-whatsapp> -->
+      <floating-whatsapp></floating-whatsapp>
     </div>
   </div>
 </template>
@@ -478,5 +475,8 @@ export default {
 }
 .cj li a:hover{
   margin-left: 4px;
+}
+.offcanvas__links ul li a{
+  font-size: 38px;
 }
 </style>
