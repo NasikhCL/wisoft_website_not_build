@@ -20,7 +20,7 @@ import "./assets/css/meanmenu.min.css"
 import "./assets/css/swiper-bundle.min.css"
 import "./assets/css/master.css"
 // scss
-import "./assets/scss/master.css"
+// import "./assets/scss/master.css"
 
 
 createApp(App).use(router).mount('#app');
